@@ -531,3 +531,19 @@ body {
   grid-template-columns: auto 1fr;
   box-shadow: rgb(19, 20, 29) 0px 5px 15px;
 }
+
+.bbcode-input__icon-bar-toggle {
+  grid-area: toggle;
+  border-top-right-radius: var(--bbcode-input-border-radius);
+  margin: 0;
+  background: #2f3541;
+}
+
+.bbcode-input__tabs {
+  grid-area: tabs;
+  border-top-left-radius: var(--bbcode-input-border-radius);
+  display: flex;
+  align-items: center;
+  margin: 0;
+  background: #333a47;
+}
