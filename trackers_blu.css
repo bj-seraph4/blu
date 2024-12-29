@@ -121,10 +121,11 @@ body {
       font-weight: 500;
       background: #3b4252;
       border-radius: 5px;
-      border-left: solid 1px rgb(81, 88, 98);
-      border-right: solid 1px rgb(81, 88, 98);
-      border-top: solid 1px rgb(81, 88, 98);
-      border-bottom: solid 1px rgb(81, 88, 98);
+      border-left: solid 1px rgb(19, 20, 29);
+      border-right: solid 1px rgb(19, 20, 29);
+      border-top: solid 1px rgb(19, 20, 29);
+      border-bottom: solid 1px rgb(19, 20, 30);
+      background-image: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/Rect%20Light.svg");
 
     }
     .form__button--outlined {
