@@ -642,14 +642,14 @@ progress {
 }
 
 .panelV2.achievements__unlocked{
-  background: #ffffff17;
+  background: #5daa0017;
   color: #feb100;
   border-radius: 10px
 
 }
 
 .panelV2.achievements__pending{
-  background: #ffffff17;
+  background: #fb00000f;
   color: #feb100;
   border-radius: 10px
   
