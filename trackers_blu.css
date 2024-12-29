@@ -629,3 +629,14 @@ body {
   list-style-type: none;
   z-index: 1000;
 }
+
+.achievement {
+  color: var(--achievement-fg);
+  border-radius: 9px !important;
+}
+
+progress {
+  vertical-align:baseline;
+  border-radius: 9px;
+  
+}
