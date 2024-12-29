@@ -566,3 +566,11 @@ body {
   background: #343a48b0;
   border-radius: 5px;
 }
+
+.topic-tag--implemented {
+  background-color: rgba(162, 238, 239, 0.3);
+  color: var(--forum-tag-implemented-fg);
+  font-family: Roboto;
+  font-weight: 400;
+  vertical-align: middle;
+}
