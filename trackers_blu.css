@@ -559,3 +559,10 @@ body {
   list-style-type: none;
   background: #13141d;
 }
+
+.page__forum--topic > article > div > section > .panel__header > .panel__heading {
+  font-size: 16px;
+  text-transform: initial;
+  background: #343a48b0;
+  border-radius: 5px;
+}
