@@ -547,3 +547,15 @@ body {
   margin: 0;
   background: #333a47;
 }
+
+.bbcode-input__icon-bar {
+  grid-area: buttons;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  background: #13141d;
+}
