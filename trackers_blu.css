@@ -591,3 +591,11 @@ body {
   background: #3b4252;
   padding: revert;
 }
+
+.dialog__action {
+  flex-shrink: 0;
+  color: #7dafbf;
+  font-size: 14px;
+  background-color: var(--dialog-head-bg);
+  font-family: Roboto;
+}
