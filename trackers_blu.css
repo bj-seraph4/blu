@@ -515,3 +515,18 @@ body {
   display: block;
   font-family: Roboto;
 }
+
+.user-stat-card {
+  background: var(--user-stat-card-bg);
+  border: var(--user-stat-card-border);
+  border-radius: var(--user-stat-card-border-radius);
+  box-shadow: var(--user-stat-card-box-shadow);
+  padding: 16px;
+  display: grid;
+  gap: 4px 16px;
+  grid-template-areas:
+"avatar username" 
+"avatar stat    ";
+  grid-template-columns: auto 1fr;
+  box-shadow: rgb(19, 20, 29) 0px 5px 15px;
+}
