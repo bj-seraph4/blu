@@ -613,3 +613,19 @@ body {
   width: 100%;
   font-family: JetBrains Mono;
 }
+
+.nav-tab-menu__items {
+  margin-left: 12px;
+  display: none;
+  position: absolute;
+  top: 95px;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 8px 0;
+  background-color: #3b4252;
+  border: var(--secondary-nav-tab-menu-border);
+  border-radius: var(--secondary-nav-tab-menu-border-radius);
+  box-shadow: var(--secondary-nav-tab-menu-box-shadow);
+  list-style-type: none;
+  z-index: 1000;
+}
