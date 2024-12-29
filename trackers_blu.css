@@ -613,7 +613,6 @@ div:where(.swal2-container) h2:where(.swal2-title) {
   position: relative;
   max-width: 100%;
   margin: 0;
-  padding: .1em 1em 0;
   color: inherit;
   font-size: 1.875em;
   font-weight: 300;
@@ -628,7 +627,7 @@ div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
   border: 0;
   border-radius: .25em;
   background: initial;
-    background-color: initial;
+  background-color: initial;
   background-color: #668ae0;
   color: #fff;
   font-size: 1em;
