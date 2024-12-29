@@ -644,9 +644,15 @@ progress {
 .panelV2.achievements__unlocked{
   background: #ffffff17;
   color: #feb100;
-  font-family: JetBrains Mono;
   border-radius: 10px
 
+}
+
+.panelV2.achievements__pending{
+  background: #ffffff17;
+  color: #feb100;
+  border-radius: 10px
+  
 }
 
 .panel__heading {
