@@ -574,3 +574,10 @@ body {
   font-weight: 400;
   vertical-align: middle;
 }
+
+.topic-tag--denied {
+  background-color: rgba(19, 20, 29, 0.34);
+  color: #e10101;
+  font-family: Roboto;
+  font-weight: 400;
+}
