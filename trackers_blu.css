@@ -599,36 +599,3 @@ body {
   background-color: var(--dialog-head-bg);
   font-family: Roboto;
 }
-
-.div:where(.swal2-container).swal2-center > .swal2-popup {
-  grid-column: 2;
-  grid-row: 2;
-  place-self: center center;
-  background: #373434;
-  font-family: Roboto;
-  color: springgreen;
-}
-
-div:where(.swal2-container) h2:where(.swal2-title) {
-  position: relative;
-  max-width: 100%;
-  margin: 0;
-  color: inherit;
-  font-size: 1.875em;
-  font-weight: 300;
-  text-align: center;
-  word-wrap: break-word;
-  cursor: initial;
-  background: #e1dccb;
-  text-transform: uppercase;
-}
-
-div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
-  border: 0;
-  border-radius: .25em;
-  background: initial;
-  background-color: initial;
-  background-color: #668ae0;
-  color: #fff;
-  font-size: 1em;
-}
