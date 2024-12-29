@@ -616,7 +616,7 @@ body {
 
 .nav-tab-menu__items {
   margin-left: 12px;
-  display: none;
+  display: none;f
   position: absolute;
   top: 95px;
   flex-direction: column;
@@ -639,4 +639,24 @@ progress {
   vertical-align:baseline;
   border-radius: 9px;
   
+}
+
+.panelV2.achievements__unlocked{
+  background: #ffffff17;
+  color: #feb100;
+  font-family: JetBrains Mono;
+  border-radius: 10px
+
+}
+
+.panel__heading {
+  background-color: var(--panel-head-bg);
+  color: var(--panel-head-fg);
+  display: block;
+  margin: 0;
+  padding: 7px 5px;
+  font-size: 16px;
+  flex-grow: 1;
+  font-weight: 400;
+  border-radius: 10px 10px 0 0px;
 }
