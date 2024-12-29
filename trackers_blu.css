@@ -599,3 +599,17 @@ body {
   background-color: var(--dialog-head-bg);
   font-family: Roboto;
 }
+
+.form__textarea {
+  background-color: inherit;
+  border: var(--textarea-border);
+  border-radius: var(--textarea-border-radius);
+  color: var(--textarea-fg);
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 100%;
+  outline: none;
+  padding: var(--textarea-padding);
+  width: 100%;
+  font-family: JetBrains Mono;
+}
