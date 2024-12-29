@@ -609,7 +609,7 @@ body {
   color: springgreen;
 }
 
-.div:where(.swal2-container) h2:where(.swal2-title) {
+div:where(.swal2-container) h2:where(.swal2-title) {
   position: relative;
   max-width: 100%;
   margin: 0;
@@ -624,7 +624,7 @@ body {
   text-transform: uppercase;
 }
 
-.div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm) {
   border: 0;
   border-radius: .25em;
   background: initial;
