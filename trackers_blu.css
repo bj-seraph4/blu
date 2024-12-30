@@ -80,15 +80,13 @@ body {
       word-spacing: -4px;
     }
 
-    .torrent__name {
-      color: #d8dee9;
-      color: #fff;
-      float: right;
-      background: #3b4252;
-      border-radius: 10px;
-      font-family: Roboto;
-      border: 1px solid #166d6b4f;
-    }
+.torrent__name {
+  color: #fff;
+  background: radial-gradient(circle at top right,#3b4252,#166d6b9e,#3b4252);
+  border-radius: 10px;
+  font-family: Roboto;
+  border: 2px solid #3b4252;
+}
 
     .form__button--filled {
       background: #166d6b;
