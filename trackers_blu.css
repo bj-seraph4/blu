@@ -714,7 +714,7 @@ progress {
 .post__toolbar {
   font-size: 13px;
   color: var(--post-toolbar-fg);
-  border-radius: 0 10px 0 0px;
+  border-radius: 0 5px 0 0px;
 }
 
 .post__toolbar-item {
