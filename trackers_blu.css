@@ -695,3 +695,18 @@ progress {
   margin-left: 2px;
   margin-right: 2px;
 }
+
+.post__header {
+  grid-area: header;
+  display: grid;
+  grid-template-areas:
+"datetime topic . tip-stats toolbar";
+  grid-template-columns: auto auto 1fr auto auto;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  color: #fff;
+  background-color: #3a4352;
+  padding-left: 9px;
+  border-bottom: 1px solid #333a48;
+}
