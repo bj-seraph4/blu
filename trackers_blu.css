@@ -86,6 +86,10 @@ body {
   border-radius: 10px;
   font-family: Roboto;
   border: 2px solid #3b4252;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  margin: 10px 0;
 }
 
     .form__button--filled {
@@ -449,12 +453,6 @@ body {
   border-right: .25em solid #2c323d;
 }
 
-.torrent__name {
-  font-size: 21px;
-  font-weight: 500;
-  text-align: center;
-  margin: 10px 0;
-}
 .topic-listing--unread {
   font-weight: 600;
   font-family: Roboto;
