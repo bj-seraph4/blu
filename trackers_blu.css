@@ -675,3 +675,8 @@ progress {
   background: radial-gradient(circle at top right,#3b42526e,#2c31319e,#3b425273);
   border-radius: 10px;
 }
+
+.torrent__category a::before {
+  font-weight: 600;
+  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/hashtag-solid.svg");
+}
