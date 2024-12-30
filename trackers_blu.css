@@ -673,5 +673,5 @@ progress {
   font-size: 14px;
   justify-content: center;
   background: radial-gradient(circle at top right,#3b42526e,#2c31319e,#3b425273);
-  border-radius: 99px;
+  border-radius: 10px;
 }
