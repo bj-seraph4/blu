@@ -757,3 +757,11 @@ progress {
   background-color: #0000005e;
   max-width: calc(25% - 30px);
 }
+
+.donation-package__name {
+  font-size: 22px;
+  font-weight: 900;
+  color: #90e0ac;
+  text-decoration: underline;
+  font-family: JetBrains Mono;
+}
