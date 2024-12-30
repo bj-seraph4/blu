@@ -87,6 +87,7 @@ body {
       background: #3b4252;
       border-radius: 10px;
       font-family: Roboto;
+      border: 1px solid #166d6b4f;
     }
 
     .form__button--filled {
