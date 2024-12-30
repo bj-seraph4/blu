@@ -765,3 +765,14 @@ progress {
   text-decoration: underline;
   font-family: JetBrains Mono;
 }
+
+.donation-package__description {
+  font-size: 14px;
+  color: #d5d5d5;
+  margin-top: 20px;
+  text-align: center;
+  font-style: italic;
+  background: #3b4252;
+  border-radius: 5px;
+  font-family: Roboto;
+}
