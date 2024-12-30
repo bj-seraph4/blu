@@ -663,3 +663,15 @@ progress {
   font-weight: 400;
   border-radius: 10px 10px 0 0px;
 }
+
+.torrent__tags {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  list-style-type: none;
+  align-items: baseline;
+  font-size: 14px;
+  justify-content: center;
+  background: radial-gradient(circle at top right,#3b42526e,#2c31319e,#3b425273);
+  border-radius: 99px;
+}
