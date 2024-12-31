@@ -822,6 +822,7 @@ progress {
   background: #111318;
   border: 1px solid #182026;
   border-radius: 18px 18px 0 0;
+  text-shadow: 1px 2px 0px #000;
 }
 
 /*
