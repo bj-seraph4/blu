@@ -825,6 +825,13 @@ progress {
   text-shadow: 1px 2px 0px #000;
 }
 
+.bbcode-rendered.bbcode-rendered img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #3b425200;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
