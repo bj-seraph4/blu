@@ -802,3 +802,12 @@ progress {
   margin-left: 6px;
   margin-right: 3px;
 }
+
+.comment__author-title {
+  font-size: 13px;
+  text-align: center;
+  background: #ffffff17;
+  border-radius: 5px;
+  font-family: JetBrains Mono;
+  color: #90e2ad;
+}
