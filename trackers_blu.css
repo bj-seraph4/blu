@@ -30,7 +30,6 @@ body {
   font-family: Roboto;
 }
 
-
 .topic-listing--read {
     font-weight: 600 !important;
   }
@@ -128,7 +127,9 @@ body {
       border-right: solid 1px rgb(19, 20, 29);
       border-top: solid 1px rgb(19, 20, 29);
       border-bottom: solid 1px rgb(19, 20, 30);
-      background-image: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/Rect%20Light.svg");
+      background: #27292d url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/capibara.svg');
+      background-size: auto;
+      background-size: 130px;
 
     }
     .form__button--outlined {
@@ -776,4 +777,31 @@ progress {
   background: #3b4252;
   border-radius: 5px;
   font-family: Roboto;
+}
+
+.post__tip-stats dt {
+  font-weight: 400;
+  font-family: Roboto;
+  color: skyblue;
+}
+
+.post__tip-stats dt::after {
+  content: ":";
+  margin-right: .1ch;
+  vertical-align: 0px;
+}
+
+.post__tip-stats {
+  grid-area: tip-stats;
+  display: inline-flex;
+  margin-bottom: 0;
+  background: #2121215e;
+  border-radius: 3px;
+}
+
+.post__tip-stats::before {
+  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/money-check-dollar-solid.svg');
+  margin-top: 1px;
+  margin-left: 6px;
+  margin-right: 3px;
 }
