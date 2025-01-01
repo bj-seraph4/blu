@@ -904,6 +904,16 @@ progress {
   font-family: Roboto;
 }
 
+.quick-search__input {
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  font-size: 13px;
+  padding: 1px 0 1px 8px;
+  color: #fff;
+  font-family: Roboto;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
