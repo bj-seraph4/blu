@@ -923,6 +923,17 @@ progress {
   border-radius: 0 0 10px 0;
 }
 
+.chatbox-message::before {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -8px;
+  width: 0;
+  border-right: 10px solid #2c323d;
+  border-top: 10px solid transparent;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
