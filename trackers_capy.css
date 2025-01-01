@@ -949,6 +949,14 @@ progress {
   color: #d8dee9;
 }
 
+.chatbox-message__avatar {
+  width: 34px;
+  height: 33px;
+  border-radius: 20%;
+  margin-bottom: -8px;
+  margin-left: -3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
