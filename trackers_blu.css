@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕𝘉𝘓𝘜 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 31/12/2024  
+❕𝘉𝘓𝘜 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 01/12/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -839,6 +839,23 @@ progress {
   background: #333a4878;
   max-width: max-content;
   border-radius: 10px;
+}
+
+.footer__sub-footer {
+  border-top: 1px solid var(--footer-hr-fg);
+  display: grid;
+  grid-template: "libraries stats" auto "libraries copyright" auto/auto auto;
+  width: 70vw;
+  max-width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid var(--footer-hr-fg);
+  border-right: 1px solid var(--footer-hr-fg);
+  border-left: 1px solid var(--footer-hr-fg);
+  border-radius: 5px;
+  background: #191d2a4a;
+  color: snow;
+  font-family: Roboto;
 }
 
 /*
