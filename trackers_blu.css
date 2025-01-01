@@ -907,6 +907,13 @@ progress {
   margin-right: 1px;
 }
 
+.chatbox-message__time {
+  display: block;
+  padding: 4px 8px 4px 2px;
+  font-size: 11px;
+  font-family: Roboto;
+  color: #d8dee9;
+}
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
