@@ -880,12 +880,20 @@ progress {
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
-  content: "▫️𝐍𝐨𝐭𝐚:";
+  content: "▫️𝗡𝗼𝘁𝗮:";
   color: var(--bbcode-rendered-attention-subtle);
   display: inline-block;
   padding-right: 0.4ch;
   font-family: Roboto;
 }
+
+.bbcode-rendered.bbcode-rendered .bbcode-rendered__alert::before {
+  content: "▫️𝗔𝗹𝗲𝗿𝘁𝗮: ";
+  color: var(--bbcode-rendered-danger-fg);
+  display: inline-block;
+  padding-right: 1ch;
+}
+
 
 /*
 ░░░░░░░░░░░
