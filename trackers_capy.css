@@ -845,6 +845,23 @@ progress {
   border-radius: 10px;
 }
 
+.footer__sub-footer {
+  border-top: 1px solid var(--footer-hr-fg);
+  display: grid;
+  grid-template: "libraries stats" auto "libraries copyright" auto/auto auto;
+  width: 70vw;
+  max-width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-bottom: 1px solid var(--footer-hr-fg);
+  border-right: 1px solid var(--footer-hr-fg);
+  border-left: 1px solid var(--footer-hr-fg);
+  border-radius: 5px;
+  background: #191d2a4a;
+  color: snow;
+  font-family: Roboto;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
