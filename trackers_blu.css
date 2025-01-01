@@ -894,6 +894,11 @@ progress {
   padding-right: 0.4ch;
 }
 
+.footer__section-list {
+  list-style-type: none;
+  font-size: 13px;
+  font-family: Roboto;
+}
 
 /*
 ░░░░░░░░░░░
