@@ -865,6 +865,13 @@ progress {
   color: wheat;
 }
 
+.footer__section-title {
+  font-size: 15px;
+  margin: 0;
+  font-weight: 400;
+  font-family: JetBrains Mono;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
