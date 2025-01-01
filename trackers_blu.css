@@ -879,6 +879,14 @@ progress {
   font-family: Roboto;
 }
 
+.bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
+  content: "▫️𝐍𝐨𝐭𝐚:";
+  color: var(--bbcode-rendered-attention-subtle);
+  display: inline-block;
+  padding-right: 0.4ch;
+  font-family: Roboto;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
