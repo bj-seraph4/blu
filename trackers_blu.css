@@ -112,7 +112,7 @@ body {
       grid-template-rows: repeat(2,auto);
       grid-template-columns: repeat(4,auto);
       grid-auto-flow: column;
-      font-size: 15px;
+      font-size: 13px;
       list-style-type: none;
       color: var(--top-nav-ratio-bar-fg);
       align-content: center;
@@ -120,7 +120,7 @@ body {
       padding: 0;
       margin: 0;
       font-family: Roboto;
-      font-weight: 500;
+      font-weight: 400;
       background: #3b4252;
       border-radius: 5px;
       border-left: solid 1px rgb(19, 20, 29);
@@ -130,6 +130,7 @@ body {
       background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/blutopian_bg-2025.svg');
       background-size: auto;
       background-size: 130px;
+      box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
 
     }
     .form__button--outlined {
