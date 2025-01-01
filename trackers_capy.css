@@ -934,6 +934,13 @@ progress {
   border-top: 10px solid transparent;
 }
 
+.chatbox-message__time::before {
+  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/clock-time.tolltip.svg');
+  vertical-align: -2px;
+  margin-left: -7px;
+  margin-right: 1px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
