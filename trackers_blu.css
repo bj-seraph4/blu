@@ -1007,7 +1007,7 @@ progress {
 
 .topic-tag--denied::after {
   content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/reprovado-tag.svg');
-  vertical-align: text-top;
+  vertical-align: -3;
   margin-left: 3px;
   margin-right: 2px;
 }
