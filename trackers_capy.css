@@ -661,8 +661,6 @@ progress {
   flex-grow: 1;
   font-weight: 400;
   border-radius: 10px 10px 0 0px;
-  background: #3b4252;
-  max-width: max-content;
 }
 
 .torrent__tags {
