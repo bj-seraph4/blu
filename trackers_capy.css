@@ -656,11 +656,12 @@ progress {
   color: var(--panel-head-fg);
   display: block;
   margin: 0;
-  padding: 7px 5px;
-  font-size: 16px;
-  flex-grow: 1;
-  font-weight: 400;
+  padding: 0px 5px;
+  font-size: 14px;
+  font-weight: 500;
   border-radius: 10px 10px 0 0px;
+  max-width: max-content;
+  font-family: Roboto;
 }
 
 .torrent__tags {
