@@ -999,6 +999,12 @@ progress {
   word-spacing: -1px;
 }
 
+.key-value dd {
+  font-size: 13px;
+  line-height: 1;
+  font-weight: 400;
+  font-family: Roboto;
+}
 
 /*
 ░░░░░░░░░░░
