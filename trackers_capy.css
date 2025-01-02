@@ -1080,6 +1080,22 @@ progress {
   margin-top: -7px;
 }
 
+.panel__heading::before {
+  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/bars-solid-capy.svg');
+  vertical-align: -1px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.panel__heading::after {
+  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/bars-solid-capy.svg');
+  vertical-align: -1px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
