@@ -908,11 +908,12 @@ progress {
 }
 
 .chatbox-message__time {
-  display: block;
-  padding: 4px 8px 4px 2px;
+  display: inline-block;
   font-size: 11px;
   font-family: Roboto;
   color: #d8dee9;
+  position: unset;
+  padding: 7px 4px 4px 0px;
 }
 
 .chatbox-message__avatar {
