@@ -931,6 +931,14 @@ progress {
   box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
 }
 
+.chatroom__whispers {
+  grid-area: whispers;
+  font-size: 12px;
+  padding: 2px 4px;
+  color: yellow;
+  font-family: Roboto;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
