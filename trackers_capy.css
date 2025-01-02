@@ -301,10 +301,16 @@ body {
     justify-content: end;
   }
 
-  .topic-listing__latest-post-link{
-    font-size: 13px;
-    font-family: Roboto;
-  }
+
+.topic-listing__latest-post-link {
+  font-size: 13px;
+  font-family: Roboto;
+  background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
+  border-bottom: thin solid #324041a1;
+  border-right: thin solid #324041a1;
+  border-left: thin solid #324041a1;
+  border-top: thin solid #324041a1;
+}
 
   .topic-listing {
     color: var(--panel-fg);
