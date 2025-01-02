@@ -985,6 +985,11 @@ progress {
   margin-right: 2px;
 }
 
+.post__datetime {
+  grid-area: datetime;
+  word-spacing: -1px;
+}
+
 
 /*
 ░░░░░░░░░░░
