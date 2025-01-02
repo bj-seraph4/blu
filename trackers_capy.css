@@ -577,6 +577,7 @@ body {
   font-family: Roboto;
   font-weight: 400;
   vertical-align: middle;
+  max-height: 17px;
 }
 
 .dialog--auto-width {
