@@ -972,7 +972,13 @@ progress {
   border-radius: 10px;
 }
 
-
+.chatroom__whispers {
+  grid-area: whispers;
+  font-size: 12px;
+  padding: 2px 4px;
+  color: yellow;
+  font-family: Roboto;
+}
 
 /*
 ░░░░░░░░░░░
