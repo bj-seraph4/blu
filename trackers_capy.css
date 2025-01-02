@@ -1014,7 +1014,16 @@ progress {
   white-space: nowrap;
   align-items: baseline;
   vertical-align: 2px;
-}/*
+}
+
+.form__standard-icon-button--skinny {
+  padding-left: 2px;
+  padding-right: 2px;
+  min-width: unset;
+  background: none !important;
+}
+
+/*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
