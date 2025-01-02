@@ -228,15 +228,14 @@ body {
       background: #ffffff17;
     }
 
-    .post__datetime {
-      grid-area: datetime;
-      background: #ffffff17;
-      border-radius: 5px;
-      color: white;
-      font-size: 11px;
-      font-family: Roboto;
-    }
-
+  .post__datetime {
+  grid-area: datetime;
+  border-radius: 5px;
+  color: white;
+  font-size: 11px;
+  font-family: Roboto;
+  word-spacing: -1px;
+}
     .torrent-card__header, .torrent-card__footer {
       display: flex;
       justify-content: space-between;
