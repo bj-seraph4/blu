@@ -913,7 +913,7 @@ progress {
   font-family: Roboto;
   color: #d8dee9;
   position: unset;
-  padding: 7px 4px 4px 0px;
+  padding: 7px 4px 4px 5px;
 }
 
 .chatbox-message__avatar {
