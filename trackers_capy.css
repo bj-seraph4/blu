@@ -1031,6 +1031,13 @@ progress {
   border-left: 3px solid var(--notification-unread) !important;
 }
 
+.torrent-search--list__resolution {
+  color: #87f79a;
+  font-family: Roboto;
+  background: #2c323d;
+  border-radius: 6px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
