@@ -571,7 +571,6 @@ body {
   color: var(--forum-tag-implemented-fg);
   font-family: Roboto;
   font-weight: 400;
-  vertical-align: middle;
   max-height: 16px;
 }
 
