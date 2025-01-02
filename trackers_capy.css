@@ -1061,7 +1061,16 @@ progress {
 }
 
 
-
+.topic-listing__post-stats, .topic-listing__view-stats {
+  margin: -4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  background: #2c323d;
+  border-radius: 5px;
+  font-family: Roboto;
+}
 
 /*
 ░░░░░░░░░░░
