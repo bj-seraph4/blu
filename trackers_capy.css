@@ -486,12 +486,13 @@ body {
 }
 
 .panel__action .form__button {
-  margin: 0 3px;
+  margin: 7px -1px;
   background: #434c5e;
   font-family: Roboto;
   font-weight: 500;
   color: #90e2ad;
 }
+
 
 .user-peers {
   margin: 0 calc(-1*max(0px,10vw - 100px));
