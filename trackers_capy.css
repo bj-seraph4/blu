@@ -1087,6 +1087,11 @@ progress {
   margin-right: 2px;
 }
 
+.topic-tag--approved {
+  background-color: var(--forum-tag-approved-bg);
+  color: var(--forum-tag-approved-fg);
+  max-height: 16px;
+}
 
 
 /*
