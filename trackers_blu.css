@@ -978,7 +978,7 @@ progress {
   font-family: inherit;
   display: inline-flex;
   white-space: nowrap;
-  align-items: inherit;
+  align-items: center;
 }
 
 /*
