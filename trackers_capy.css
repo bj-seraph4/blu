@@ -1079,6 +1079,15 @@ progress {
   margin-right: 2px;
 }
 
+.topic-tag--denied::after {
+  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/reprovado-tag.svg');
+  vertical-align: -1px;
+  margin-left: 3px;
+  margin-right: 2px;
+}
+
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
