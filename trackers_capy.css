@@ -223,6 +223,8 @@ body {
       grid-area: type;
       white-space: nowrap;
       background: #ffffff17;
+      font-family: Roboto;
+       background: radial-gradient(circle at top right,#3b4252,#3b4252,#3b4252);
     }
 
 .post__datetime::before {
