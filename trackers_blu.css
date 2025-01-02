@@ -979,6 +979,7 @@ progress {
   display: inline-flex;
   white-space: nowrap;
   align-items: center;
+  margin: auto;
 }
 
 .user-tag__link ~ i, {
