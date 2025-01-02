@@ -814,7 +814,7 @@ progress {
 .dialog__heading {
   padding: 14px 18px;
   color: #daf2f2;
-  line-height: 0.5;
+  line-height: 1.5;
   text-align: center;
   font-size: 19px;
   font-family: JetBrains Mono;
