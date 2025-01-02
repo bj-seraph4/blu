@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕𝘉𝘓𝘜 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 01/01/2025  
+❕Aither 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 01/01/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -12,7 +12,7 @@
 .alert {
   color: #feb100;
   font-family: JetBrains Mono;
-  background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/blutopian_bg-2025.svg');
+  background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/aither-bg.svg');
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
@@ -127,7 +127,7 @@ body {
       border-right: solid 1px rgb(19, 20, 29);
       border-top: solid 1px rgb(19, 20, 29);
       border-bottom: solid 1px rgb(19, 20, 30);
-      background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/blutopian_bg-2025.svg');
+      background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/aither-bg.svg');
       background-size: auto;
       background-size: 130px;
       box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
