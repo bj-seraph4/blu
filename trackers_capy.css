@@ -1070,7 +1070,7 @@ progress {
 }
 
 .panelV2 > :nth-child(2) {
-  border-top-right-radius: 10px ! important;
+  border-top-left-radius: 0;
 }
 
 /*
