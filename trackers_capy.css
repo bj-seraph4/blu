@@ -1027,6 +1027,9 @@ progress {
   color:goldenrod !important;
 }
 
+.notification--unread {
+  border-left: 3px solid var(--notification-unread) !important;
+}
 
 /*
 ░░░░░░░░░░░
