@@ -1179,6 +1179,29 @@ progress {
   border-radius: 10px 0 0 0 !important;
 }
 
+.form__select {
+  background-color: inherit;
+  background: var(--select-icon);
+  background-size: 16px;
+  background-position: calc(100% - 4px) center;
+  background-repeat: no-repeat;
+  border: var(--select-border);
+  border-radius: var(--select-border-radius);
+  color: var(--select-fg);
+  font-size: 14px;
+  font-weight: 400;
+  height: 38px;
+  max-width: max-content !important;
+  outline: none;
+  padding: var(--select-padding);
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin-left: 12px;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
