@@ -1079,6 +1079,17 @@ progress {
   font-family: Roboto;
 }
 
+.row-flags__wrapper {
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin-top: 8px;
+  background: #2c323d69 !important;
+  font-family: Roboto;
+  border-radius: 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
