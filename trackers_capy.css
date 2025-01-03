@@ -1141,6 +1141,11 @@ progress {
   color: #43a4fb !important;
 }
 
+.torrent-search--list__sticky-row td {
+  background-color: #191d2a !important;
+  border-bottom: none !important;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
