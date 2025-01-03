@@ -877,6 +877,11 @@ progress {
   border-radius: 5px;
   background: #191d2a4a;
   font-family: Roboto;
+  background: radial-gradient(circle at top right,#23d1a508,#2328334f) !important;
+  border-bottom: thin solid #324041a1;
+  border-right: thin solid #324041a1;
+  border-left: thin solid #324041a1;
+  border-top: thin solid #324041a1;
 }
 
 .footer__copyright {
