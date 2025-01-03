@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕𝘉𝘓𝘜 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 02/01/2025  
+❕𝘉𝘓𝘜 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 03/01/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -1046,6 +1046,16 @@ progress {
   content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regular.svg');
   vertical-align: 0px;
   margin-right: 0px;
+}
+
+.torrent-search--list__age {
+  font-size: 16px;
+  color: var(--torrent-row-fg);
+  font-family: Roboto;
+  background: #2c323d !important;
+  border-bottom: 1px solid #3b4252 !important;
+  border-right: 1px solid #3b4252 !important;
+  color: #43a4fb !important;
 }
 
 /*
