@@ -898,7 +898,7 @@ progress {
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
-  content: "▫️𝗡𝗼𝘁𝗮:";
+  content: "▫️𝗡𝗼𝘁𝗲:";
   color: var(--bbcode-rendered-attention-subtle);
   display: inline-block;
   padding-right: 0.4ch;
@@ -906,7 +906,7 @@ progress {
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__alert::before {
-  content: "▫️𝗔𝗹𝗲𝗿𝘁𝗮: ";
+  content: "▫️𝗔𝗹𝗲𝗿𝘁: ";
   color: var(--bbcode-rendered-danger-fg);
   display: inline-block;
   padding-right: 0.4ch;
