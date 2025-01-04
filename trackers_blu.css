@@ -102,10 +102,11 @@ body {
 }
 
     .form__button--filled {
-      background: #166d6b;
+      background: #295756;;
       color: var(--button-filled-fg);
       border: var(--button-filled-border);
       border-radius: var(--button-filled-border-radius);
+
     }
 
     .top-nav__dropdown > a > .top-nav--left__container {
@@ -626,7 +627,7 @@ body {
 
 .nav-tab-menu__items {
   margin-left: 4px;
-  display: none;f
+  display: none;
   position: absolute;
   top: 95px;
   flex-direction: column;
@@ -1006,7 +1007,7 @@ progress {
   margin: auto;
 }
 
-.user-tag__link ~ i, {
+.user-tag__link {
   margin-left: .3ch;
 }
 
