@@ -621,7 +621,7 @@ body {
 
 .nav-tab-menu__items {
   margin-left: 12px;
-  display: none;f
+  display: none;
   position: absolute;
   top: 95px;
   flex-direction: column;
@@ -1074,7 +1074,7 @@ progress {
   margin: auto;
 }
 
-.user-tag__link ~ i, {
+.user-tag__link  {
   margin-left: .3ch;
 }
 
