@@ -1252,6 +1252,15 @@ progress {
   font-weight: 600;
 }
 
+.user-stat-card__username {
+  grid-area: username;
+  padding: 4px;
+  margin: 0;
+  background: #2c323d69 !important;
+  font-family: Roboto;
+  border-radius: 10px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
