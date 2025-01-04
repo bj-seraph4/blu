@@ -625,7 +625,7 @@ body {
 }
 
 .nav-tab-menu__items {
-  margin-left: 12px;
+  margin-left: 4px;
   display: none;f
   position: absolute;
   top: 95px;
@@ -638,6 +638,7 @@ body {
   box-shadow: var(--secondary-nav-tab-menu-box-shadow);
   list-style-type: none;
   z-index: 1000;
+  margin-top: -16px;
 }
 
 .achievement {
