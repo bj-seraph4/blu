@@ -1143,6 +1143,13 @@ progress {
   max-width: 98vw !important;
 }
 
+.torrent-search--list__ratings-header.torrent-search--list__ratings-header
+{
+  text-align: left;
+  min-width: 70px;
+  color: #d8dee9;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
