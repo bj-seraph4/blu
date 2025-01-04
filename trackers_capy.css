@@ -1236,7 +1236,7 @@ progress {
 }
 
 .meta__title::before {
-  vertical-align: -3px;
+  vertical-align: -2px;
   margin-right: -3px;
   content: url("https://blu-84i.pages.dev/img/capy-icon.png") !important;
 }
