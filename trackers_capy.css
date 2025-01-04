@@ -1216,6 +1216,12 @@ progress {
   color: #ffc00a;
 }
 
+.user-torrents {
+  width: max-content;
+  max-width: 93vw !important;
+  align-self: center;
+}
+
 
 /*
 ░░░░░░░░░░░
