@@ -634,6 +634,7 @@ body {
   box-shadow: var(--secondary-nav-tab-menu-box-shadow);
   list-style-type: none;
   z-index: 1000;
+  margin-top: -15px;
 }
 
 .achievement {
