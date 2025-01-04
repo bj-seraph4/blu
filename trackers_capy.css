@@ -1266,6 +1266,14 @@ progress {
   color: #f94b07;
 }
 
+.top-nav__branding:hover {
+  text-shadow: 0 0 25px rgba(187,130,241,.55);
+  -webkit-filter: brightness(120%);
+  filter: brightness(120%);
+}
+
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
