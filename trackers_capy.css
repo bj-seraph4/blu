@@ -1272,6 +1272,14 @@ progress {
   filter: brightness(120%);
 }
 
+.post__topic {
+  grid-area: topic;
+  margin-top: -4px;
+  margin-left: -5px;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 15px;
+}
 
 
 /*
