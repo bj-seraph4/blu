@@ -1346,7 +1346,13 @@ progress {
   margin-left: 15px;
   color:green;
 }
-
+.subforum-listing__latest-post-link{
+  background: radial-gradient(circle at top right,#23d1a508,#157d631c) !important;
+  border-bottom: thin solid #324041a1;
+  border-right: thin solid #324041a1;
+  border-left: thin solid #324041a1;
+  border-top: thin solid #324041a1;
+}
 .subforum-listing__topic-stats, .subforum-listing__post-stats {
   margin: 0;
   display: flex;
