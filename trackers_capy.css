@@ -1304,6 +1304,14 @@ progress {
   content:"" !important;
   color: seagreen;
 }
+
+
+.panelV2 > :not(:has(~ :not([style*="display: none"]))) {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  background-color: #343a48;
+}
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
