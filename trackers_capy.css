@@ -1287,6 +1287,16 @@ progress {
   margin-bottom: 6px !important;
 }
 
+.data-table > thead > tr > th,{
+  background-color: #343a48;
+  border-bottom: var(--data-table-thead-border);
+  text-align: left;
+  padding: 7px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
