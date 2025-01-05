@@ -366,9 +366,10 @@ body {
   background: radial-gradient(circle at top right,#3b4252,#252a34) !important;
   margin: 0;
   padding: 0 18px;
-  column-gap: 18px;
+  column-gap: -4px;
   border-bottom: 2px solid #3b4252;
   border-top: 2px solid #3b4252;
+  height: 30px;
 }
 
 .panel__tab {
@@ -434,7 +435,7 @@ body {
 
 .nav-tab__link, .nav-tab--active__link {
   margin-top: 6px;
-  padding: 7px 22px;
+  padding: 4px 25px;
   white-space: nowrap;
   display: inline-block;
   color: #43a4fb;
