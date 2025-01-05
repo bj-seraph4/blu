@@ -1315,6 +1315,15 @@ progress {
   color: #3b9bee;
 }
 
+.topic-listing__figure {
+  grid-area: figure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #3b4252;
+  border-radius: 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
