@@ -1311,7 +1311,9 @@ progress {
   overflow: hidden;
   background-color: #343a48;
 }
-
+.fab.fa-telegram {
+  color: #3b9bee;
+}
 
 /*
 ░░░░░░░░░░░
