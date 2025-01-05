@@ -1287,7 +1287,7 @@ progress {
   margin-bottom: 6px !important;
 }
 
-.data-table > thead > tr > th,{
+.data-table > thead > tr > th{
   background-color: #343a48;
   border-bottom: var(--data-table-thead-border);
   text-align: left;
