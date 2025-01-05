@@ -1180,6 +1180,18 @@ progress {
   color: #42a2fb;
 }
 
+.subforum-listing__topic-stats, .subforum-listing__post-stats {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 12px;
+  background: #2c323d;
+  border-radius: 5px;
+  font-family: Roboto;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
