@@ -1324,6 +1324,21 @@ progress {
   border-radius: 3px;
 }
 
+.topic-listing__header {
+  grid-area: header;
+  padding: 0 21px;
+}
+
+.topic-listing__forum {
+  font-size: 10px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.fad.fa-comments.topic-listing__icon{
+  margin-left: 15px
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
