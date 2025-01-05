@@ -1300,8 +1300,8 @@ progress {
   color: #3a8bd4;
 }
 
-.fas.fa-comment-dots{
-  content:"";
+.fas.fa-comment-dots, .fa-comment-dots::before, .fa-commenting::before {
+  content:"" !important;
   color: seagreen;
 }
 /*
