@@ -1312,13 +1312,6 @@ progress {
   background-color: #343a48;
 }
 
-th.similar-torrents__type::before {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/tipo-video.svg');
-  vertical-align: -1px;
-  margin-left: -11px;
-  margin-right: 0px;
-}
-
 
 /*
 ░░░░░░░░░░░
