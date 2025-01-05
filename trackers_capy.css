@@ -1282,6 +1282,10 @@ progress {
   font-size: 15px;
 }
 
+.fa-home-alt::before, .fa-home-lg-alt::before, .fa-home::before, .fa-house::before {
+  content: "";
+  margin-bottom: 6px !important;
+}
 
 /*
 ░░░░░░░░░░░
