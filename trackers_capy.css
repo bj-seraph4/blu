@@ -312,10 +312,11 @@ body {
   border-left: thin solid #324041a1;
   border-top: thin solid #324041a1;
 }
-
   .topic-listing {
     color: var(--panel-fg);
     font-family: Roboto;
+    background: #2c323d;
+    border: 1px solid #3b4252;
   }
 
   .breadcrumb--active {
@@ -1083,14 +1084,13 @@ progress {
   color: #f66;
 }
 
-
 .topic-listing__post-stats, .topic-listing__view-stats {
   margin: -4px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 12px;
-  background: #2c323d;
+  background: #27292d;
   border-radius: 5px;
   font-family: Roboto;
 }
