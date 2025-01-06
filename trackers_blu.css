@@ -1227,6 +1227,12 @@ progress {
   background-color: #3b425200;
 }
 
+.post__toolbar {
+  font-size: 13px;
+  color: var(--post-toolbar-fg);
+  border-radius: 10px 0 0 0 !important;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
