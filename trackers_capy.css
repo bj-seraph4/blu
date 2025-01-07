@@ -1371,7 +1371,7 @@ progress {
 .key-value__group:first-child {
   padding-top: var(--key-value-padding);
   background: #2a2f3a !important;
-  height: 22px !important;
+  height: 30px !important;
   font-family: Roboto;
   color: #e1e1e1;
 }
