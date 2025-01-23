@@ -1259,6 +1259,14 @@ progress {
   justify-content: space-around;
 }
 
+.emoji-button {
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 20px;
+  margin: 7px -1px;
+  background: #434c5e;
+  border-radius: 10px;
+}
 
 /*
 ░░░░░░░░░░░
