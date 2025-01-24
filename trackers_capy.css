@@ -833,6 +833,7 @@ progress {
   border-radius: 5px;
   font-family: JetBrains Mono;
   color: #90e2ad;
+  line-height: 16px
 }
 
 .dialog__heading {
