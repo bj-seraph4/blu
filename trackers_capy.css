@@ -432,7 +432,7 @@ body {
   position: sticky;
   top: 100vh;
   margin-top: 26px;
-  background: var(--footer-bg);
+  background: #232833c7;
   border-top: 3px solid #3b4252;
 }
 
