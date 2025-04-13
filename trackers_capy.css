@@ -1367,8 +1367,9 @@ progress {
   font-family: Roboto;
 }
 
-.panel__header{
-  margin-top:-16px
+.panel__header {
+  margin-top: 4px;
+  display: ruby-base-container;
 }
 
 .key-value__group:first-child {
