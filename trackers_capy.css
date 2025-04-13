@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 11/03/2025  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 13/04/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -1427,6 +1427,17 @@ progress {
   width: 10px;
   display: inline-grid;
   margin-left: 1px;
+}
+
+.torrent-search--list__resolution-and-type {
+  display: flex;
+  flex-direction: column;
+  color: #faf5d9;
+  border-radius:8px;
+  padding:2px 6px;
+  text-align: center;
+  background-color: #3b4252 !important;
+  font-family: Roboto;
 }
 
 /*
