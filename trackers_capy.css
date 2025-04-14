@@ -1523,6 +1523,26 @@ i.fas.fa-minus-circle.fa-pull-right {
   display: block;
   margin-top: 3px;
 }
+
+.mediainfo dt {
+  padding-left: 6px;
+  margin-left: 3px;
+  margin-right: -21px;
+  font-family: Roboto;
+  color: #4af;
+  font-weight: 500;
+  background:#2c323d6e;
+}
+
+.mediainfo__audio {
+  background:#2c323d;
+  max-width: max-content;
+  border-radius:5px;
+  border:2px solid #252a34;
+  margin:
+auto;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
