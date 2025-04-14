@@ -1483,6 +1483,13 @@ background:#2d323d !important;
   color: #81a1c1;
 }
 
+.torrent-search--list__rating,.torrent-search--list__seeders, .torrent-search--list__seeders, .torrent-search--list__leechers,.torrent-search--list__completed{
+  background:#2e34409e !important;
+  font-size: 14px !important;
+  font-family: JetBrains Mono;
+  color: #81a1c1;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
