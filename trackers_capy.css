@@ -1512,6 +1512,12 @@ background:#2d323d !important;
   vertical-align: top;
 } 
 
+i.fas.fa-plus-circle.fa-pull-right {
+  color: #ebcb8b !important;
+  display: block;
+  margin-top: 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
