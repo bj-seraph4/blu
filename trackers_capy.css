@@ -1508,6 +1508,12 @@ background:#2d323d !important;
 .torrent-icons__thanks::before, .torrent-icons__comments::before {
   letter-spacing: -6px;
 }
+
+.torrent-search--list__age ::before {
+  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regular.svg");
+  vertical-align: top;
+} 
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
