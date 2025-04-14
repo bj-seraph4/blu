@@ -1142,9 +1142,7 @@ progress {
 
 .torrent-search--list__age {
   font-size: 16px;
-  color: var(--torrent-row-fg);
   font-family: Roboto;
-  background: #2c323d !important;
   border-bottom: 1px solid #3b4252 !important;
   border-right: 1px solid #3b4252 !important;
   color: #43a4fb !important;
