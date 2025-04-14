@@ -1495,6 +1495,16 @@ background:#2d323d !important;
   font-family: JetBrains Mono;
 }
 
+.torrent-icons {
+  grid-area:cons;
+  letter-spacing: 5px;
+  font-size: 16px;
+  align-items: center;
+  background:#303642;
+  max-width: max-content;
+  border-radius:3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
