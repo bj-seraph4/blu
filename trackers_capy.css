@@ -1599,11 +1599,12 @@ div.panel__body.torrent-search--poster__results {
   display: flex;
   height: 15.5px;
   margin-right: 4px;
-  background-color: #ffffeb;
-  mix-blend-mode: difference;
+  background-color: #fff;
+  mix-blend-mode: unset;
   padding:3px 2px;
   border-radius:4px;
   margin-bottom: -5px;
+}
 }
 
 
