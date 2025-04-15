@@ -1559,7 +1559,7 @@ div.panel__body.torrent-search--poster__results {
 
 .mediainfo__filename::before {
   content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/bars-solid.svg');
-  vertical-align: 0px;
+  vertical-align: -1px;
   width: 10px;
   display: inline-grid;
   margin-left: 1px;
