@@ -1554,6 +1554,8 @@ div.panel__body.torrent-search--poster__results {
   background:#2e3440;
   border-radius:10px;
   max-width: max-content;
+  font-weight: 500;
+
 }
 
 /*
