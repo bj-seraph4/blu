@@ -1566,7 +1566,7 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .mediainfo h3 {
-  display: block;
+  display: unset;
   font-family: inherit;
   color: #bbb;
   font-size: 13px;
