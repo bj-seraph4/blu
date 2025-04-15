@@ -1549,6 +1549,13 @@ div.panel__body.torrent-search--poster__results {
   color: #fcaf11;
 }
 
+.torrent-search--poster__title {
+  color: white !important;
+  background:#2e3440;
+  border-radius:10px;
+  max-width: max-content;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
