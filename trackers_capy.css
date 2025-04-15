@@ -1622,6 +1622,16 @@ div.panel__body.torrent-search--poster__results {
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
+.article-preview__title {
+  font-size: 18px;
+  background:#2e3440;
+  max-width: max-content;
+  font-family: JetBrains Mono;
+  border:2px solid #3b4252;
+  border-radius:10px;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
