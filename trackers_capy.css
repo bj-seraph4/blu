@@ -1566,6 +1566,15 @@ div.panel__body.torrent-search--poster__results {
   margin-right: -6px;
 }
 
+.mediainfo__audio::before {
+  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/audio-bj.svg');
+  vertical-align: -2px;
+  width: 10px;
+  display: inline-grid;
+  margin-left: 11px;
+  margin-right: -7px;
+}
+
 .mediainfo h3 {
   display: unset;
   font-family: inherit;
