@@ -1398,7 +1398,7 @@ progress {
 }
 
 .special-event-alert > .alert__content {
-  width: 37%;
+  width: 45%;
   display: flex;
   justify-content: space-around;
 }
