@@ -1717,6 +1717,12 @@ i.fas.fa-star {
   background:#242932;
 }
 
+.subforum-listing__post-stats dd {
+  margin:0;
+  font-family: JetBrains Mono;
+  color: #2c93e6;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
