@@ -362,7 +362,6 @@ body {
   text-transform: uppercase;
  -webkit-filter: brightness(110%);
   filter: brightness(110%);
-  text-shadow: 0 0 5px rgba(169, 214, 245, 0.18);
   transition: all .3s;
 }
 
