@@ -1657,7 +1657,6 @@ div.panel__body.torrent-search--poster__results {
   position: absolute;
   display: flex;
   height: 100%;
-  border:1px solid #466ef1;
   background: #3b4252;
   border-radius:10px;
 }
