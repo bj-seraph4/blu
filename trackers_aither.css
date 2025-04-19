@@ -79,7 +79,7 @@ body {
 
 .torrent__name {
   color: #fff;
-  background: radial-gradient(circle at top right,#3b4252,#166d6b9e,#3b4252);
+  background: radial-gradient(circle at top right,#3b4252,#64e0eb24,#3b4252);
   border-radius: 10px;
   font-family: Roboto;
   border: 2px solid #3b4252;
