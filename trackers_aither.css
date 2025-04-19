@@ -1674,6 +1674,17 @@ div.panel__body.torrent-search--poster__results {
   content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/grip-aither.svg');
 }
 
+.chatroom__messages {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap:2px;
+  padding:0 10px;
+  margin:0;
+  align-items: flex-start;
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
