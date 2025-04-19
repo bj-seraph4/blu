@@ -351,15 +351,16 @@ body {
 
 .top-nav__site-logo {
   background-color: #4281da;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  -webkit-text-fill-color: #8d8aac00;
+  -webkit-background-clip:text;
   background-clip: text;
-  background-image: linear-gradient(90deg,#3654d8 4%,#349ce6 19%,#56d0e2 39%,#62e080 60%,#d195cb 80%,#e646dd);
+  background-image: radial-gradient(circle,#15e1ed,#af63e4 44%,#8d00ff 86%);
   font-weight: 400;
   font-size: 2.5rem;
-  font-family: JetBrains Mono,Arial,sans-serif;
+  text-shadow: rgba(52,160,230,.55) 0 0 1px;
+  font-family: JetBrains Mono;
   text-transform: uppercase;
-  -webkit-filter: brightness(110%);
+ -webkit-filter: brightness(110%);
   filter: brightness(110%);
   text-shadow: 0 0 5px rgba(169, 214, 245, 0.18);
   transition: all .3s;
