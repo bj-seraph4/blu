@@ -958,6 +958,7 @@ progress {
   bottom: 0;
   left: -8px;
   width: 0;
+  border-top: none;
 }
 
 .chatbox-message__time::before {
