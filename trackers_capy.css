@@ -1016,6 +1016,16 @@ progress {
   margin-right: 2px;
 }
 
+.chatbox-message__header {
+  grid-area:header;
+  display: flex;
+  align-items: center;
+  background:#23272f;
+  border-radius:10px 10px 10px 0px;
+  margin-bottom: 2px;
+  height: 16px;
+}
+
 .post__datetime {
   grid-area: datetime;
   word-spacing: -1px;
