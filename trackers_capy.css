@@ -1700,6 +1700,18 @@ div.panel__body.torrent-search--poster__results {
   color: transparent;
 }
 
+.chatroom__reply {
+  display: flex;
+  gap:4px;
+  align-items: center;
+  color: #34eabb;
+  background:#2c323d;
+  max-width: max-content;
+  border:1px solid #474d59;
+  border-radius:10px;
+  padding:0px 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
