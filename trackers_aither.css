@@ -1751,6 +1751,17 @@ i.fas.fa-star {
   padding:4px 5px;
 }
 
+.bbcode-rendered.bbcode-rendered details summary {
+  cursor: pointer;
+  display: unset;
+  color: #2e3440;
+  background:#b7bec2;
+  border-radius:
+  border:2px solid #729afd;
+  padding:0px 3px;
+  font-size: 13px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
