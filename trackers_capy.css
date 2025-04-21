@@ -462,6 +462,8 @@ body {
   background-color: var(--bbcode-rendered-quote-bg);
   border-radius: 6px;
   border-right: .25em solid #2c323d;
+  border-top:1px solid #272c36;
+  border-bottom:1px solid #272c36;
 }
 
 .topic-listing--unread {
