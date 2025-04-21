@@ -1729,6 +1729,17 @@ i.fas.fa-star {
   font-size: 14px !important;
 }
 
+.user-tag {
+  display: inline-flex;
+  white-space:nowrap;
+  background:#4c5462;
+    background-image: none;
+  border:1px solid #51b1fe29;
+  border-radius:10px;
+  padding:0px 8px;
+  font-family: Roboto !important;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
