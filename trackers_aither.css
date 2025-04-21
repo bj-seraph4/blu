@@ -1742,6 +1742,14 @@ i.fas.fa-star {
   margin-top: 0px;
 }
 
+.quick-search {
+  position: relative;
+  max-width: 391px;
+  flex-grow: 1;
+  z-index: 5;
+  height: 36px;
+  padding:4px 5px;
+}
 
 /*
 ░░░░░░░░░░░
