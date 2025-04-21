@@ -1752,14 +1752,14 @@ i.fas.fa-star {
 }
 
 .bbcode-rendered.bbcode-rendered details summary {
-  cursor: pointer;
+cursor: pointer;
   display: unset;
   color: #2e3440;
   background:#b7bec2;
-  border-radius:
-  border:2px solid #729afd;
+  border-radius:5px;
   padding:0px 3px;
   font-size: 13px;
+  border:2px solid #729afd;
 }
 
 /*
