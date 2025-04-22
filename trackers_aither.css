@@ -1475,6 +1475,11 @@ progress {
   margin-top: -6px
 }
 
+.subforum-listings__item:nth-child(2n) {
+  list-style-type: none;
+  background:#2c323d80;
+}
+
 .page__forum--topic > article > div > section > .panel__body {
   background-color: transparent;
   padding:
