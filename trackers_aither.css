@@ -1779,6 +1779,13 @@ td.torrent-search--grouped__completed {
   background:#2c323da6;
 }
 
+td.torrent-search--grouped__size {
+  grid-area:size;
+  width: 5.5%;
+  color: #c8f3ff;
+  background:#2f353f;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
