@@ -900,10 +900,15 @@ progress {
 
 .footer__section-title {
   font-size: 15px;
-  margin: 0;
+  margin:-5px;
   font-weight: 400;
   font-family: JetBrains Mono;
   color: #5a96ca;
+  background:#343a488f;
+  max-width: max-content;
+  border-radius:10px;
+  padding:0px 3px;
+  border:1px solid #27292d;
 }
 
 .post__content.post__content.post__content {
