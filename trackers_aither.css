@@ -933,7 +933,7 @@ progress {
 }
 
 .footer__section-list {
-  list-style-type: none;
+  list-style-type: square;
   font-size: 13px;
   font-family: Roboto;
 }
