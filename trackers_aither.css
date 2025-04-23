@@ -1803,6 +1803,13 @@ content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regul
   background-color: #2c323d;
 }
 
+.top-nav--left__container {
+  vertical-align: baseline;
+  color: #37c6ff;
+  display: inline;
+  text-shadow: 3px 2px 0px #0b0a0a;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
