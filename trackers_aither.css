@@ -946,9 +946,13 @@ progress {
 }
 
 .footer__section-list {
-  list-style-type: square;
+  list-style:url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/circulo-cbr-footer.svg");
   font-size: 13px;
   font-family: Roboto;
+  margin-left: 15px;
+  margin-top: 1px;
+  gap:normal;
+  display: flex;
 }
 
 .quick-search__input {
