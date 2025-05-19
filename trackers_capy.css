@@ -1459,8 +1459,7 @@ progress {
   width: 32px;
   height: 32px;
   border-radius: var(--top-nav-icon-bar-icon-border-radius);
-  border:
-2px solid #b38821;
+  border:2px solid #b38821;
   box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
@@ -1486,12 +1485,11 @@ progress {
 
 .page__forum--topic > article > div > section > .panel__body {
   background-color: transparent;
-  padding:
-12px 0 0px;
+  padding:12px 0 0px;
 }
 
 .torrent-search--list__size {
-background:#2d323d !important;
+  background:#2d323d !important;
   font-size: 14px !important;
   font-family: JetBrains Mono;
   color: #81a1c1;
@@ -1876,6 +1874,13 @@ content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regul
   margin-left: 0px;
   margin-right: 0px;
   vertical-align: unset;
+}
+
+.quick-search {
+  position: relative;
+  max-width: 227px;
+  flex-grow: 1;
+  z-index: 5;
 }
 
 /*
