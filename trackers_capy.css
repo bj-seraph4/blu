@@ -1517,6 +1517,7 @@ progress {
 
 .torrent-icons__thanks::before, .torrent-icons__comments::before {
   letter-spacing: -6px;
+  vertical-align: middle;
 }
 
 .torrent-search--list__age ::before {
