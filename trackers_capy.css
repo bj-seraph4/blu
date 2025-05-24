@@ -2280,11 +2280,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 
 @media only screen and (max-width: 767px) {
-
 td.torrent-search--grouped__age time {
   color: inherit;
   background: #2c323d;
   padding: 1px 1px;
+  margin-right: 64px;
   }
 }
 
