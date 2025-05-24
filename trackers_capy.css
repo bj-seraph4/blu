@@ -899,7 +899,7 @@ progress {
   border-radius: 5px;
   background: #191d2a4a;
   font-family: Roboto;
-  background: radial-gradient(circle at top right,#23d1a508,#2328334f) !important;
+  background: radial-gradient(circle at top right,#23d1a508,#2328334f);
   border-bottom: thin solid #324041a1;
   border-right: thin solid #324041a1;
   border-left: thin solid #324041a1;
@@ -2115,6 +2115,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   .footer__stats, .footer__copyright {
     text-align: center !important;
     display: block !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__sub-footer {
+    grid-template: "libraries" auto "stats" auto "copyright" auto/auto;
+    gap: 12px;
+    justify-items: center;
+    border: none !important;
+    background: none !important;
   }
 }
 
