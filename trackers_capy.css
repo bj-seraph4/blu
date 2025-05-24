@@ -2196,6 +2196,16 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  }
 }
 
+@media only screen and (max-width: 767px) {
+  .form__group--short-horizontal {
+  background-color: inherit !important;;
+  display: grid !important;;
+  gap: 0px;
+  grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+  align-items: center;
+  } 
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
