@@ -2234,7 +2234,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  }
 }
 
-
+@media screen and (max-width: 767px) {
+  .meta__description {
+    max-height: 75px;
+  }
+}
 
 @media only screen and (max-width: 767px) {
 .torrent__name {
@@ -2249,7 +2253,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin: 8px 0;
  }
 }
-
 
 /*
 ░░░░░░░░░░░
