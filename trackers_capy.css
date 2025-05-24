@@ -2004,8 +2004,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 .fa-heart-pulse::before, .fa-heartbeat::before {
-  content: "";
+  content: "";
   margin-right: 3px;
+  vertical-align: 0px;
 }
 
 /*
