@@ -2216,6 +2216,24 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  }
 }
 
+@media only screen and (max-width: 767px) {
+.form__button {
+  line-height: 1;
+  margin: 3px;
+  padding: 5px 10px;
+  align-self: flex-start;
+  filter: brightness(1);
+  text-align: center;
+  transition: filter .3s;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.1ch;
+  -webkit-user-select: none;
+  user-select: none;
+ }
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
