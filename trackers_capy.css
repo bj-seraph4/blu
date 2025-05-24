@@ -1974,7 +1974,7 @@ i.fas.fa-heartbeat.torrent-icons__thanks {
 
 .fa-user-plus::before {
   content: "";
-  font-size: 13px !important;
+  font-size: 12px !important;
 }
 
 .fa-eye-slash::before {
