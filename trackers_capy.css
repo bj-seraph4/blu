@@ -2353,6 +2353,14 @@ th.similar-torrents__type {
  }
 }
 
+.top-nav__icon-bar.mobile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 0;
+  width: 100%;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
