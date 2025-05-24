@@ -2091,8 +2091,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .fa-bars::before, .fa-navicon::before {
   content: "";
-  font-size: 28px !important;
-  margin: auto !important;
+  font-size: 38px !important;
+  margin-top: 0px;
+  margin-left: 30px;
 }
 
 /*
