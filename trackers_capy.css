@@ -2073,6 +2073,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
+@media screen and (max-width: 576px) {
+  .post__header {
+    grid-template-areas: "datetime topic . tip-stats overflow" ".        .     . .         toolbar " !important;
+    grid-template-columns: auto auto 1fr auto auto !important;
+    gap: 0 3px !important;
+  }
+}
+
 
 /*
 ░░░░░░░░░░░
