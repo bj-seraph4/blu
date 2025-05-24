@@ -1510,7 +1510,6 @@ progress {
 .torrent-icons {
   grid-area:icons;
   letter-spacing: 5px;
-  font-size: 16px;
   align-items: center;
   max-width: max-content;
   border-radius:3px;
