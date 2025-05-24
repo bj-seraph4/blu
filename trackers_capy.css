@@ -2044,7 +2044,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   color: red;
 }
 
-
 @media screen and (max-width: 576px) {
   .post__figure {
     margin-bottom: 0 !important;
@@ -2170,8 +2169,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
-
-
 @media only screen and (max-width: 767px) {
 .post__topic {
   grid-area: topic !important;
@@ -2195,12 +2192,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media only screen and (max-width: 767px) {
 .chatbox-message__content img {
-  max-width: 321px;
+  max-width: 300px;
  }
 }
-
-
-
 
 /*
 ░░░░░░░░░░░
