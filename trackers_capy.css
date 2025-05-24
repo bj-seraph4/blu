@@ -1623,11 +1623,10 @@ div.panel__body.torrent-search--poster__results {
   display: flex;
   height: 15.5px;
   margin-right: 4px;
-  background-color: #fff;
+  background-color: #d8dee9;
   mix-blend-mode: unset;
-  padding:2px 2px;
-  border-radius:4px;
-  margin-bottom: -5px;
+  padding: 2px 2px;
+  border-radius: 4px;
 }
 
 .article-preview__image {
