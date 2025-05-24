@@ -200,6 +200,23 @@ body {
       font-size: 15px;
       font-family: Roboto;
     }
+.torrent__seeders-link.text-green{
+background: #01b8011a;
+padding: 4px;
+border-radius: 10px;
+color: whitesmoke;
+word-spacing: -3px;
+}
+
+.torrent__leechers-link.text-red{
+background: #bf616a3b;
+padding: 4px;
+border-radius: 10px;
+color: white;
+word-spacing: -3px;
+}
+
+
 
     .text-red {
       color: #ff0039;
