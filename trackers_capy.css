@@ -2255,13 +2255,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 @media only screen and (max-width: 767px) {
-td.torrent-search--grouped__completed, td.torrent-search--grouped__leechers, td.torrent-search--grouped__seeders{
-  grid-area: completed;
-  width: 39%;
-  margin-right: 250px;
- }
+  td.torrent-search--grouped__seeders {
+    grid-area: completed;
+    width: 19%;
+    margin-right: 241px;
+  }
 }
-
 
 /*
 ░░░░░░░░░░░
