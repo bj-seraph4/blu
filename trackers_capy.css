@@ -1969,6 +1969,10 @@ i.fas.fa-heartbeat.torrent-icons__thanks {
   margin: auto;
 }
 
+.user-tag__link::before {
+  margin-right: .1ch;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
