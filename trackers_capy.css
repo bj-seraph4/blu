@@ -2016,7 +2016,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media screen and (max-width: 767px) {
   .meta__chips {
-    display: none;
+    display: none !important;
   }
 }
 
