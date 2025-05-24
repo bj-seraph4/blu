@@ -2034,7 +2034,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media screen and (max-width: 767px) {
   .top-nav__ratio-bar.top-nav__ratio-bar {
-    font-size: 12px;
+    font-size: 14px;
     display: none !important;
   }
 }
