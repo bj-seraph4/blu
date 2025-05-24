@@ -2324,6 +2324,17 @@ th.similar-torrents__type {
  }
 }
 
+@media only screen and (max-width: 767px) {
+.top-nav {
+  background-color: var(--top-nav-bg);
+  box-shadow: var(--top-nav-box-shadow);
+  display: grid;
+  grid-template: "left . menus . right toggle" 48px/1fr 40px auto 40px 1fr auto;
+  align-items: center;
+  padding: 0px 40px;
+ }
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
