@@ -2014,19 +2014,6 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-right: 3px;
 }
 
-.form__meter {
-  background: #252a34;
-  -moz-appearance: none;
-  border-radius: 4px;
-  height: 22px;
-  max-width: 100%;
-  width: 100%;
-}
-
-.form__meter::-moz-meter-bar {
-  background: #fdaf11;
-}
-
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
