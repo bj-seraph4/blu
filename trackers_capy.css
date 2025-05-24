@@ -1959,7 +1959,13 @@ span.fas{
   color: #fbae11;
   margin-right: 4px;
 }
+
+i.fas.fa-comment-alt-lines.torrent-icons__comments{
+  margin-left: 10px;
+  letter-spacing: 5px;
+  vertical-align: 0px
 }
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
