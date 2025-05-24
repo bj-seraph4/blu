@@ -2162,6 +2162,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
+@media only screen and (max-width: 1720px) {
+  .subforum-listing__topic-stats, .subforum-listing__post-stats {
+    flex-direction: row !important;
+    max-width: max-content !important;
+    padding: 0px 1px;
+  }
+}
+
 
 /*
 ░░░░░░░░░░░
