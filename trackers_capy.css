@@ -1516,7 +1516,7 @@ progress {
 }
 
 .torrent-icons__thanks::before, .torrent-icons__comments::before {
-  letter-spacing: -6px;
+  letter-spacing: -4px;
   vertical-align: middle;
 }
 
