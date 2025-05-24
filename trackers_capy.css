@@ -2103,6 +2103,21 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
+@media only screen and (max-width: 767px) {
+  td.torrent-search--grouped__age::before {
+    width: 100%;
+    display: none !important;
+    background: #373b44 !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer__stats, .footer__copyright {
+    text-align: center !important;
+    display: inline-flex;
+  }
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
