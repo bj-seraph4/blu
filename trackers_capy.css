@@ -2234,6 +2234,23 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
  }
 }
 
+
+
+@media only screen and (max-width: 767px) {
+.torrent__name {
+  color: #fff;
+  background: radial-gradient(circle at top right,#3b4252,#166d6b9e,#3b4252);
+  border-radius: 10px;
+  font-family: Roboto;
+  border: 2px solid #3b4252;
+  font-size: 13px;
+  font-weight: 500;
+  text-align: center;
+  margin: 8px 0;
+ }
+}
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
