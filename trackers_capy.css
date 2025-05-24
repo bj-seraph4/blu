@@ -2175,11 +2175,12 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 @media only screen and (max-width: 1720px) {
 .post__topic {
   grid-area: topic !important;
-  margin-top: -2px;
+  margin-top: -2px !important;
   color: #fff;
   text-transform: lowercase;
   font-size: 12px;
-}
+  margin-left: 16px !important;
+  }
  }
 
 
