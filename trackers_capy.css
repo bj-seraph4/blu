@@ -2295,6 +2295,17 @@ td.torrent-search--grouped__size {
   }
 }
 
+@media only screen and (max-width: 767px) {
+.torrent-icons {
+  grid-area: icons;
+  letter-spacing: 1px;
+  align-items: center;
+  max-width: max-content;
+  border-radius: 3px;
+  background: #27313278;
+ }
+}
+
 
 /*
 ░░░░░░░░░░░
