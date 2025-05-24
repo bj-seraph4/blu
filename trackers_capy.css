@@ -2171,6 +2171,20 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 
+
+@media only screen and (max-width: 1720px) {
+.post__topic {
+  grid-area: topic !important;
+  margin-top: -2px;
+  color: #fff;
+  text-transform: lowercase;
+  font-size: 12px;
+}
+ }
+
+
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
