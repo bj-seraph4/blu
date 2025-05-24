@@ -2162,7 +2162,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
-@media only screen and (max-width: 1720px) {
+@media only screen and (max-width: 767px) {
   .subforum-listing__topic-stats, .subforum-listing__post-stats {
     flex-direction: row !important;
     max-width: max-content !important;
@@ -2172,7 +2172,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 
 
-@media only screen and (max-width: 1720px) {
+@media only screen and (max-width: 767px) {
 .post__topic {
   grid-area: topic !important;
   margin-top: -2px !important;
@@ -2183,6 +2183,15 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
  }
 
+@media only screen and (max-width: 767px) {
+.user-tag, .user-tag__link {
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+  background: #262b36;
+  border-radius: 10px 10px 0 0;
+ }
+}
 
 
 
