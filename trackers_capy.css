@@ -1088,7 +1088,7 @@ progress {
 }
 
 .user-tag__link {
-  font-family: inherit;
+  font-family: Roboto;
   display: inline-flex;
   white-space: nowrap;
   align-items: center;
