@@ -2081,6 +2081,13 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   }
 }
 
+.top-nav__toggle {
+  grid-area: unset !important;
+  background-color: transparent !important;
+  outline: none !important;
+  border: none !important;
+  color: var(--top-nav-toggle-fg) !important;
+}
 
 /*
 ░░░░░░░░░░░
