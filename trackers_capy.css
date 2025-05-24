@@ -2306,6 +2306,19 @@ td.torrent-search--grouped__size {
  }
 }
 
+@media only screen and (max-width: 767px) {
+th.similar-torrents__type {
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0px 1px;
+  min-height: 36px;
+  grid-area: type;
+  white-space: nowrap;
+  font-family: Roboto;
+  background: #212121;
+  border-radius: 10px;
+ }
+}
 
 /*
 ░░░░░░░░░░░
