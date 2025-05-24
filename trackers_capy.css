@@ -31,8 +31,8 @@ body {
   }
   .fa::before, .fas::before {
     font-family: "Font Awesome 5 Pro";
-    font-weight: 900;
-    font-size: 12px;
+    /*! font-weight: 900; */
+    font-size: 13px;
   }
 
   .post__tip-input {
@@ -1981,8 +1981,8 @@ i.fas.fa-comment-alt-lines.torrent-icons__comments{
 }
 
 i.fas.fa-heartbeat.torrent-icons__thanks {
-  letter-spacing: 4px;
-  margin: auto;
+  letter-spacing: 1px;
+  margin-left: 2px;
 }
 
 .user-tag__link::before {
