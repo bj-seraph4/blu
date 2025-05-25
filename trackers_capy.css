@@ -2023,7 +2023,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 @media screen and (max-width: 767px) {
   .top-nav__icon-bar {
-   display: inline-flex !important;
+   /*! display: inline-flex !important; */
   }
 }
 
@@ -2091,7 +2091,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 
 .fa-bars::before, .fa-navicon::before {
   content: "";
-  font-size: 32px !important;
+  /*! font-size: 32px !important; */
   margin-top: 0px;
   margin-left: 19px;
 }
