@@ -2356,6 +2356,7 @@ th.similar-torrents__type {
   border-radius: 22px;
   border: 2px solid #4c566a;
   padding: 3px 3px;
+  display: none;
  }
 }
 /*
