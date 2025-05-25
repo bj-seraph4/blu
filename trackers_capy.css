@@ -2358,7 +2358,7 @@ th.similar-torrents__type {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  column-gap: 29px;
+  column-gap: 0px;
   width: 100%;
   max-width: max-content;
   
