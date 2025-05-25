@@ -2374,6 +2374,12 @@ th.similar-torrents__type {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .meta__chip-container {
+    display: none;
+  }
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
