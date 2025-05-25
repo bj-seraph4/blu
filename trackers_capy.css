@@ -140,8 +140,8 @@ body {
     }
 
     .fa::before, .fab::before, .fad::before, .fal::before, .far::before, .fas::before {
-      -moz-osx-font-smoothing: grayscale;
-      -webkit-font-smoothing: antialiased;
+      /*! -moz-osx-font-smoothing: grayscale; */
+      /*! -webkit-font-smoothing: antialiased; */
       text-rendering: auto;
       display: inline-block;
       font-style: normal;
@@ -2020,15 +2020,10 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-right: 3px;
 }
 
-@media screen and (max-width: 767px) {
-  .meta__chips {
-    display: none !important;
-  }
-}
 
 @media screen and (max-width: 767px) {
   .top-nav__icon-bar {
-    display: none !important;
+   display: inline-flex !important;
   }
 }
 
