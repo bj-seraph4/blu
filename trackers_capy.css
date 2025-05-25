@@ -2362,8 +2362,7 @@ th.similar-torrents__type {
 
 @media only screen and (max-width: 1100px) {
   .panel__actions {
-    position: initial;
-    max-width: max-content;
+    position: unset;
     background: #2c323d !important;
   }
 }
