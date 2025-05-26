@@ -2414,6 +2414,7 @@ th.similar-torrents__type {
 .torrent-search--list__type{
   font-size:13px;
   font-family: Roboto !important;
+  white-space: wrap !important;
 }
 
 /*
