@@ -2397,6 +2397,16 @@ th.similar-torrents__type {
   background: #2c323d;
 }
 
+.fa-skull-crossbones {
+  content: "";
+  background: #252a34;
+  padding: 0px 6px;
+  max-height: 16px;
+  border-radius: 5px;
+  margin-left: 10px;
+  font-size: 11px !important;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
