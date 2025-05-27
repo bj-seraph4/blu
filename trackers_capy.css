@@ -529,8 +529,6 @@ word-spacing: -3px;
 }
 
 .pagination__previous {
-  content: url(https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/anteriorcbr.svg);
-  width: 40px;
   white-space: nowrap;
   line-height: 40px;
   font-size: 14px;
@@ -542,8 +540,8 @@ word-spacing: -3px;
 }
 
 .pagination__next {
-  content: url(https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/proximocbr.svg);
-  width: 40px;
+  white-space: nowrap;
+  line-height: 40px;
   font-size: 14px;
   color: var(--paginate-fg);
   text-align: center;
