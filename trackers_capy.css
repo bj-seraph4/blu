@@ -528,18 +528,27 @@ word-spacing: -3px;
   align-self: center;
 }
 
-.pagination__previous, .pagination__next {
-  width: 90px;
+.pagination__previous {
   white-space: nowrap;
-  height: 40px;
   line-height: 40px;
   font-size: 14px;
   color: var(--paginate-fg);
-  background-color: #343a48;
   text-align: center;
-  display: block;
-  font-family: Roboto;
+  border-radius: 10px 0 0 10px;
+  background: #2c323d;
+
 }
+
+.pagination__next {
+  white-space: nowrap;
+  line-height: 40px;
+  font-size: 14px;
+  color: var(--paginate-fg);
+  text-align: center;
+  border-radius: 0 10px 10px 0;
+  background: #2c323d;
+}
+
 
 .user-stat-card {
   background: var(--user-stat-card-bg);
