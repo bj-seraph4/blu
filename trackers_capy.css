@@ -2071,7 +2071,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
 }
 
 @media screen and (max-width: 576px) {
-  .post__author-join, .post__tip-stats {
+  .post__author-join {
    display: none !important;
    
   }
@@ -2419,6 +2419,13 @@ th.similar-torrents__type {
   font-size:13px;
   font-family: Roboto !important;
   white-space: wrap !important;
+}
+
+@media screen and (max-width: 576px) {
+  .post__tip-stats {
+    display: inline-flex !important;
+    font-size: 10px;
+  }
 }
 
 /*
