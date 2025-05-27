@@ -833,6 +833,9 @@ progress {
   margin-bottom: 0;
   background: #2121215e;
   border-radius: 3px;
+  color: #daa520;
+  font-family: Roboto !important;
+  font-weight: 500;
 }
 
 .post__tip-stats::before {
