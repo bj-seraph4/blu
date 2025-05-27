@@ -836,7 +836,7 @@ progress {
   color: #daa520;
   font-family: Roboto !important;
   font-weight: 500;
-  padding: 1px 1px;
+  padding: 0px 2px;
 }
 
 .post__tip-stats::before {
