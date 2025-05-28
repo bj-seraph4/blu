@@ -48,17 +48,16 @@ body {
   }
 
 .post__author-title {
-  grid-area: title;
-  font-size: 13px;
+  font-size: 12px;
   text-align: center;
-  word-break: normal;
+  word-break: initial;
   overflow-wrap: anywhere;
   color: #02ffcaa1;
-  float: right;
   background: #ffffff17;
   border-radius: 5px;
   font-family: JetBrains Mono;
-  line-height: 16px;
+  line-height: 12px;
+  padding: 2px 1px;
 }
 
   .form__button--filled {
@@ -2444,21 +2443,6 @@ th.similar-torrents__type {
   .post__tip-stats::before {
   display: none !important;
 }
-}
-
-
-@media screen and (max-width: 576px) {
-  .post__permalink, .post__quote, .post__edit, .post__delete-button, .votes__like, .votes__dislike, .post__tip-button {
-    width: 100%;
-    padding: 9px;
-    margin: 0px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .post__header:focus-within .post__toolbar, .post__toolbar:hover {
-    display: flex;
-  }
 }
 
 /*
