@@ -252,12 +252,19 @@ word-spacing: -3px;
   margin-right: 2px;
 }
 
-.torrent-card__header, .torrent-card__footer {
-  font-size: 13px;
-  color: var(--torrent-card-head-fg);
-  white-space: nowrap;
-  background: #242932;
-}
+
+
+    .torrent-card__header, .torrent-card__footer {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      font-size: 11px;
+      color: var(--torrent-card-head-fg);
+      background-color: #2e3440;
+      margin: 0;
+      overflow: hidden;
+      white-space: nowrap;
+    }
 
     .footer__copyright {
       grid-area: copyright;
@@ -1038,9 +1045,13 @@ progress {
 .chatroom__whispers {
   grid-area: whispers;
   font-size: 12px;
-  padding: 2px 4px;
+  padding: 2px 4px !important;
   color: yellow;
   font-family: Roboto;
+  background: #3a475f;
+  max-width: max-content;
+  margin-left: 10px;
+  border-radius: 0 0 10px 10px;
 }
 
 .chatroom__whispers:before {
