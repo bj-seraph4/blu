@@ -1293,9 +1293,9 @@ progress {
 }
 
 .meta__title::before {
-  vertical-align: -2px;
-  margin-right: -3px;
-  content: url("https://blu-84i.pages.dev/img/capy-icon.png") !important;
+  vertical-align: top;
+  margin-right: -7px;
+  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/logo-cbr.webp") !important;
 }
 
 .fa-clock-four::before, .fa-clock::before {
