@@ -252,17 +252,12 @@ word-spacing: -3px;
   margin-right: 2px;
 }
 
-    .torrent-card__header, .torrent-card__footer {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px;
-      font-size: 11px;
-      color: var(--torrent-card-head-fg);
-      background-color: #2e3440;
-      margin: 0;
-      overflow: hidden;
-      white-space: nowrap;
-    }
+.torrent-card__header, .torrent-card__footer {
+  font-size: 13px;
+  color: var(--torrent-card-head-fg);
+  white-space: nowrap;
+  background: #242932;
+}
 
     .footer__copyright {
       grid-area: copyright;
