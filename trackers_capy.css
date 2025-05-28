@@ -58,6 +58,8 @@ body {
   font-family: JetBrains Mono;
   line-height: 12px;
   padding: 2px 1px;
+  margin-top: 1px;
+  margin-bottom: 7px;
 }
 
   .form__button--filled {
