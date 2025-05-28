@@ -2448,6 +2448,15 @@ th.similar-torrents__type {
 }
 }
 
+.top10-poster {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr auto;
+  background: #212121;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 12px, rgb(0, 0, 0) 0px 4px 6px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
