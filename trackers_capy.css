@@ -1293,7 +1293,6 @@ progress {
 }
 
 .meta__title::before {
-  vertical-align: top;
   margin-right: -6px;
   content: url("https://blu-84i.pages.dev/img/logo-cbr.webp") !important;
 }
