@@ -2457,6 +2457,11 @@ th.similar-torrents__type {
   box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 12px, rgb(0, 0, 0) 0px 4px 6px;
 }
 
+.fa-trophy-alt::before, .fa-trophy-star::before {
+  content: "";
+  color: #fdb012;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
