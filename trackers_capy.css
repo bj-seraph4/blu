@@ -471,14 +471,14 @@ word-spacing: -3px;
   margin-left: 2px;
   margin-right: 2px;
   padding: .25em .25em .25em 1em;
-  color: var(--bbcode-rendered-fg-muted);
-  border-left: .25em solid #2c323d;
+  color: #c0c7d3;
+  border-left: .25em solid #212121;
   font-size: 15px;
-  background-color: var(--bbcode-rendered-quote-bg);
+  background-color: #2e3440;
   border-radius: 6px;
-  border-right: .25em solid #2c323d;
-  border-top:1px solid #272c36;
-  border-bottom:1px solid #272c36;
+  border-right: 0.25em solid #212121;
+  border-top: 1px solid #272c36;
+  border-bottom: 1px solid #272c36;
 }
 
 .topic-listing--unread {
