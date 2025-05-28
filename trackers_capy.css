@@ -1597,10 +1597,11 @@ div.panel__body.torrent-search--poster__results {
 
 .torrent-search--poster__title {
   color: white !important;
-  background:#2e3440;
-  border-radius:10px;
+  background: #212121;
+  border-radius: 3px;
   max-width: max-content;
   font-weight: 500;
+  padding: 0px 2px;
 }
 
 .mediainfo__filename::before {
