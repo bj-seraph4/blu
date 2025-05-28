@@ -2472,7 +2472,7 @@ th.similar-torrents__type {
 .meta__title::before {
   vertical-align: 0px;
   margin-right: -2px;
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/capy-mobile.png") !important;
+  content: url("") !important;
  }
 }
 
