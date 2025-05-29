@@ -2475,6 +2475,19 @@ th.similar-torrents__type {
  }
 }
 
+
+@media screen and (max-width: 576px) {
+  .data-table > tbody > tr > td {
+  padding: 0px;
+  font-size: 14px;
+  color: white;
+  font-family: Roboto !important;
+}
+ }
+}
+
+
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
