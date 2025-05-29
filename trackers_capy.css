@@ -2442,7 +2442,7 @@ th.similar-torrents__type {
 
 @media screen and (max-width: 576px) {
   .post__tip-stats {
-    display: inline-flex !important;
+    display: block !important;
     font-size: 10px;
   }
 }
