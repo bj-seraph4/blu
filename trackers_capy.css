@@ -2508,6 +2508,12 @@ border-bottom: 2px solid #2c323d;
 
 .chatroom__whispers { min-height: 22px } 
 
+.form__bbcode-buttons{
+  background: #21212157;
+  max-width: max-content;
+  border-radius: 10px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
