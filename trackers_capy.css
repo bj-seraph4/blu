@@ -1021,12 +1021,10 @@ progress {
 
 .chatbox-message__avatar {
   width: 34px;
-  height: 33px;
+  height: 34px;
   border-radius: 100%;
-  margin-bottom: -4px;
-  margin-left: -3px;
-  box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
-  margin-top: 7px;
+  box-shadow: rgb(33, 33, 33) 0px 5px 15px;
+  margin-top: 6px;
 }
 
 .post__avatar {
