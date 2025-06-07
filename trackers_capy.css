@@ -1419,7 +1419,7 @@ progress {
 
 .panel__header {
   margin-top: 4px;
-  display: ruby-base-container;
+  display: inline-flex;
 }
 
 .key-value__group:first-child {
