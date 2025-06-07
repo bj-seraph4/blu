@@ -2482,6 +2482,14 @@ th.similar-torrents__type {
 }
  }
 
+@media screen and (max-width: 576px) {
+ .topic-listing__forum {
+  font-size: 10px;
+  text-align: center;
+  margin-left: 27px;
+}
+}
+
 @media screen and (max-width: 1100px) {
   .torrent-search--list__poster-img {
   width: 54px;
