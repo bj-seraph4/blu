@@ -2509,9 +2509,19 @@ border-bottom: 2px solid #2c323d;
 }
 
 
+@media only screen and (max-width: 767px) {
+.fa-duotone.fa-comments::after, .fad.fa-comments::after {
+  content: "";
+  margin-left: 13px;
+  }
+ }
 
-
-
+@media only screen and (max-width: 767px) {
+.fa-comments::before {
+  content: "";
+  margin-left: 13px;
+ }
+}
 
 .chatroom__messages > li > article {
   padding: 2px 6px;
