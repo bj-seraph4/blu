@@ -2563,6 +2563,31 @@ border-bottom: 2px solid #2c323d;
   margin-right: 3px;
 }
 
+.pagination__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  color: var(--paginate-fg);
+  background-color: #434c5e;
+  text-align: center;
+  border-bottom: 2px solid #2c323d;
+}
+
+.pagination__ellipsis {
+  background-color: var(--paginate-bg);
+  width: 40px;
+  min-width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px;
+  text-align: center;
+  color: var(--paginate-fg-disabled);
+  cursor: default;
+  border-bottom: 2px solid #2c323d;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
