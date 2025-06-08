@@ -1855,6 +1855,7 @@ content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regul
   color: #4dabca;
   cursor: default;
   border-bottom: 2px solid #2c323d;
+  text-shadow: 1px 1px 4px #0b0a0a;
 }
 
 .data-table tr:nth-child(2n) > td {
