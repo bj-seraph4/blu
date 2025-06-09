@@ -1513,6 +1513,7 @@ progress {
   border-radius:10px 10px 10px 10px;
   border:2px solid #262b35;
   font-family: Roboto;
+  padding: 3px;
 }
 
 .panelV2.blocks__featured{
