@@ -2617,6 +2617,15 @@ border-bottom: 2px solid #2c323d;
   border-bottom: 2px solid #474d59;
   border-top: 2px solid #474d59;
 }
+.chatTriggers::after {
+  content: "🖤";
+  font-size: 77%;
+  vertical-align: 1px;
+  margin-left: 1px;
+  border-radius: 3px;
+  margin-right: 2px
+}
+
 
 .chatbox-message:hover .chatbox-message__menu-button {
   color: var(--chatbox-button-fg);
