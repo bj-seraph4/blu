@@ -831,9 +831,9 @@ progress {
 }
 
 .post__tip-stats dt {
-  font-weight: 400;
-  font-family: Roboto;
   color: skyblue;
+  text-transform: lowercase;
+  font-family: inherit;
 }
 
 .post__tip-stats dt::after {
