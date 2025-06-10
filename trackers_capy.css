@@ -2608,10 +2608,13 @@ border-bottom: 2px solid #2c323d;
   border-radius: 10px;
 }
 
-.chatTriggers{
+.chatTriggers {
   font-style: italic;
   white-space: wrap;
   color: rgb(211, 221, 241);
+  background: #2c323d;
+  border-bottom: 2px solid #474d59;
+  border-top: 2px solid #474d59;
 }
 
 
