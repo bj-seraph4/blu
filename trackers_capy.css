@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 07/06/2025  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 10/06/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -2597,13 +2597,12 @@ border-bottom: 2px solid #2c323d;
 }
 
 .chatbox-message__menu-button {
-  padding: 1px 3px;
-  margin: 0;
-  background-color: #2e3440;
+  padding: 2px 3px;
+  margin: 46px 1px;
+  background-color: #4c5057;
   text-align: center;
-  border: none;
+  border: 2px solid #474d59;
   color: #faf2f2;
-  font-size: 24px;
   cursor: pointer;
   border-radius: 10px;
 }
