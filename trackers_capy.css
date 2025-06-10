@@ -995,11 +995,13 @@ progress {
 .chatbox-message::before {
   display: block;
   content: "";
-  position: absolute;
-  bottom: 0;
-  left: -8px;
-  width: 0;
-  border-top: none;
+  position: relative;
+  bottom: 3px;
+  left: -6px;
+  width: 8px;
+  border-right: 10px solid #23272f;
+  border-top: 10px solid transparent;
+  margin-top: 19px;
 }
 
 .chatbox-message__time::before {
