@@ -1063,7 +1063,7 @@ progress {
 
 .chatbox-message__header {
   grid-area:header;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   background:#23272f;
   border-radius:10px 10px 10px 0px;
