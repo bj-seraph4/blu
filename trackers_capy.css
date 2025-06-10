@@ -1011,16 +1011,6 @@ progress {
   margin-right: 1px;
 }
 
-
-.chatbox-message__time {
-  display: inline-block;
-  font-size: 11px;
-  font-family: Roboto;
-  color: #d8dee9;
-  position: unset;
-  padding: 7px 4px 4px 0px;
-}
-
 .chatbox-message__avatar {
   width: 34px;
   height: 34px;
@@ -2644,6 +2634,12 @@ border-bottom: 2px solid #2c323d;
  }
 }
 
+.chatbox-message__time {
+  padding: 0;
+  font-size: 11px !important;
+  color: rgba(170, 170, 170, 0.58) !important;
+  margin-right: 3px;
+}
 
 /*
 ░░░░░░░░░░░
