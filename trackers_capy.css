@@ -2657,8 +2657,12 @@ border-bottom: 2px solid #2c323d;
 }
 
 a[href="/users/System"] {
-  color: rgb(255, 116, 0);
+  color: rgb(255, 120, 0) !important;
   font-family: JetBrains Mono;
+  background: #2e3440;
+  padding: 2px 1px;
+  border-radius: 5px;
+  margin: 0px;
 }
 
 /*
