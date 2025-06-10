@@ -2645,8 +2645,8 @@ border-bottom: 2px solid #2c323d;
   bottom: 48px;
   left: -6px;
   width: 8px;
-  border-right: 10px solid #23272f;
-  border-top: 10px solid transparent;
+  border-right: none !important;
+  border-top: none !important;
   margin-top: 65px;
  }
 }
