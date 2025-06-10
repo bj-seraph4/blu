@@ -996,7 +996,7 @@ progress {
   display: block;
   content: "";
   position: relative;
-  bottom: 3px;
+  bottom: 2px;
   left: -6px;
   width: 8px;
   border-right: 10px solid #23272f;
