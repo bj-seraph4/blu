@@ -2641,6 +2641,22 @@ border-bottom: 2px solid #2c323d;
   margin-right: 3px;
 }
 
+.torrent-search__results,
+.torrent-search__filters,
+.panelV2,
+.user-torrents,
+.user-torrents__filters,
+.page__torrents {
+  margin: 0 !important;
+}
+
+.user-torrents,
+.user-uploads,
+.user-resurrections,
+.user-peers {
+  width: 100% !important;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
