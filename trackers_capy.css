@@ -1616,7 +1616,6 @@ i.fas.fa-minus-circle.fa-pull-right {
 .mediainfo__audio {
   background:#2c323d;
   max-width: unset;
-  border-radius:5px;
   border:2px solid #252a34;
   margin:
 auto;
@@ -1666,11 +1665,9 @@ div.panel__body.torrent-search--poster__results {
 
 .mediainfo__subtitles{
   background: #2e344096;
-  max-width: max-content;
   border: 2px solid #2c323d21;
-  margin-left: 3px;
-  border-radius: 10px;
-  padding: 0px 2px;
+  margin-left: -1px;
+  padding: 0px 1px;
   margin-top: 4px;
 }
 
