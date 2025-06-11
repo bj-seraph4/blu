@@ -847,7 +847,7 @@ progress {
   grid-area: tip-stats;
   display: inline-flex;
   margin-bottom: 0;
-  background: #2121215e;
+  background: #343a488f;
   border-radius: 3px;
   color: #daa520;
   font-family: Roboto !important;
