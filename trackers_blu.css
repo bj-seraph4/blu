@@ -485,8 +485,8 @@ body {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
- font-family: Roboto;
- background: radial-gradient(circle at top right,#2e3440,#434c5e) !important;
+  font-family: Roboto;
+  background: radial-gradient(circle at top right,#2e3440,#434c5e) !important;
 }
 
 .torrent__tags li:not(:last-child)::after {
