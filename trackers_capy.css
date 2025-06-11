@@ -17,6 +17,7 @@
   font-size: 14px;
   padding: 0px;
 }
+
 body {
     background-image: url(https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/capibara.svg);
 }
@@ -29,13 +30,14 @@ body {
 .topic-listing--read {
     font-weight: 600 !important;
   }
-  .fa::before, .fas::before {
+
+.fa::before, .fas::before {
     font-family: "Font Awesome 5 Pro";
     /*! font-weight: 900; */
     font-size: 13px;
   }
 
-  .post__tip-input {
+.post__tip-input {
     margin: 5px 5px 2px 9px;
     border-width: 0 0 2px 0;
     border-style: solid;
@@ -62,14 +64,15 @@ body {
   margin-bottom: 7px;
 }
 
-  .form__button--filled {
+.form__button--filled {
     background: #0c4b49;
     color: var(--button-filled-fg);
     border: var(--button-filled-border);
     border-radius: var(--button-filled-border-radius);
-    font-family: JetBrains Mono;}
+    font-family: JetBrains Mono;
+  }
 
-    .torrent-search--list__name {
+.torrent-search--list__name {
       grid-area: name;
       font-size: 16px;
       color: var(--torrent-row-fg);
@@ -89,14 +92,14 @@ body {
   margin: 10px 0;
 }
 
-    .form__button--filled {
+.form__button--filled {
       background: #166d6b;
       color: var(--button-filled-fg);
       border: var(--button-filled-border);
       border-radius: var(--button-filled-border-radius);
     }
 
-    .top-nav__dropdown > a > .top-nav--left__container {
+.top-nav__dropdown > a > .top-nav--left__container {
       display: grid;
       align-items: center;
       position: relative;
@@ -104,7 +107,7 @@ body {
       font-size: 17px;
     }
 
-    .top-nav__ratio-bar.top-nav__ratio-bar {
+.top-nav__ratio-bar.top-nav__ratio-bar {
       display: grid;
       gap: 1px 12px;
       grid-template-rows: repeat(2,auto);
@@ -130,7 +133,7 @@ body {
       background-size: 130px;
    }
 
-    .form__button--outlined {
+.form__button--outlined {
       background: var(--button-outlined-bg);
       color: var(--button-outlined-fg);
       border: var(--button-outlined-border);
@@ -140,7 +143,7 @@ body {
       font-weight: 400;
     }
 
-    .fa::before, .fab::before, .fad::before, .fal::before, .far::before, .fas::before {
+.fa::before, .fab::before, .fad::before, .fal::before, .far::before, .fas::before {
       /*! -moz-osx-font-smoothing: grayscale; */
       /*! -webkit-font-smoothing: antialiased; */
       text-rendering: auto;
@@ -149,16 +152,15 @@ body {
       font-variant: normal;
     }
 
-    .subforum-listing__latest-heading {
+.subforum-listing__latest-heading {
       font-size: 14px;
       white-space: nowrap;
       background: #ffffff17;
       border-radius: 5px;
       max-width: max-content;
-      
     }
 
-    .post__aside {
+.post__aside {
       grid-area: aside;
       padding: 8px;
       display: flex;
@@ -1968,15 +1970,16 @@ content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regul
 .post__author-join-datetime {
   color: #f4f4f4;
   background: #252a34;
-  padding: 0px 1px;
+  padding: 0px 3px;
   border: thin solid #434c5e;
   font-family: "Roboto Condensed", sans-serif;
+  margin-right: 1px;
 }
 
 .post__author-join {
   color: white;
   background: #2e3440 !important;
-  border-radius: 7px 0;
+  border-radius: 5px 5px 0 0;
   margin-left: 1px;
   margin-right: 0px;
 }
