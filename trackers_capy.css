@@ -170,7 +170,7 @@ body {
       color: var(--post-aside-fg);
     }
 
-    .top-nav__dropdown > ul > li > a, .top-nav__dropdown > ul > li > form > button {
+.top-nav__dropdown > ul > li > a, .top-nav__dropdown > ul > li > form > button {
       color: var(--top-nav-dropdown-menu-item-fg);
       font-size: 15px;
       text-decoration: none;
@@ -193,39 +193,38 @@ body {
       font-family: JetBrains Mono;
     }
 
-    .post__author-topics dt, .post__author-posts dt {
-      font-weight: 500;
-      font-family: Roboto;
-    }
+.post__author-topics dt, .post__author-posts dt {
+    font-weight: 500;
+    font-family: Roboto;
+  }
 
-    .text-green {
-      color: #3fb618;
-      font-size: 15px;
-      font-family: Roboto;
-    }
+.text-green {
+    color: #3fb618;
+    font-size: 15px;
+    font-family: Roboto;
+  }
+
 .torrent__seeders-link.text-green{
-background: #01b8011a;
-padding: 4px;
-border-radius: 10px;
-color: whitesmoke;
-word-spacing: -3px;
+   background: #01b8011a;
+   padding: 4px;
+   border-radius: 10px;
+   color: whitesmoke;
+   word-spacing: -3px;
 }
 
 .torrent__leechers-link.text-red{
-background: #bf616a3b;
-padding: 4px;
-border-radius: 10px;
-color: white;
-word-spacing: -3px;
+   background: #bf616a3b;
+   padding: 4px;
+   border-radius: 10px;
+   color: white;
+   word-spacing: -3px;
 }
 
-
-
-    .text-red {
-      color: #ff0039;
-      font-size: 15px;
-      font-family: Roboto;
-    }
+.text-red {
+   color: #ff0039;
+   font-size: 15px;
+   font-family: Roboto;
+ }
 
     .text-orange {
       color: #ff7518;
@@ -255,18 +254,17 @@ word-spacing: -3px;
 }
 
 
-
-    .torrent-card__header, .torrent-card__footer {
-      display: flex;
-      justify-content: space-between;
-      padding: 10px;
-      font-size: 11px;
-      color: var(--torrent-card-head-fg);
-      background-color: #2e3440;
-      margin: 0;
-      overflow: hidden;
-      white-space: nowrap;
-    }
+.torrent-card__header, .torrent-card__footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 11px;
+    color: var(--torrent-card-head-fg);
+    background-color: #2e3440;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+  }
 
     .footer__copyright {
       grid-area: copyright;
@@ -353,6 +351,7 @@ word-spacing: -3px;
     font-size: 12px;
     font-weight: 700;
   }
+
   .torrent-search__component {
     display: flex;
     flex-direction: column;
@@ -504,6 +503,7 @@ word-spacing: -3px;
   background: radial-gradient(circle at top right,#2e3440,#434c5e) !important;
   padding: 1px 2px
 }
+
 .post__author-topics {
   display: flex;
   justify-content: space-between;
@@ -528,7 +528,6 @@ word-spacing: -3px;
 .post__author-topics dd {
   margin: 1px 1px;
   padding: 0 3px;
-  font-family: Verdana;
   font-weight: 600;
   color: #d8dee9;
 }
@@ -536,7 +535,6 @@ word-spacing: -3px;
 .post__author-posts dd {
   margin: 1px 1px;
   padding: 0 3px;
-  font-family: Verdana;
   font-weight: 600;
   color: #d8dee9;
 }
