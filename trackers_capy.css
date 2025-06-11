@@ -612,7 +612,8 @@ word-spacing: -3px;
   font-family: Roboto;
   font-weight: 400;
   vertical-align: 2px;
-  height: 16px;
+  margin: 0;
+  max-height: 17px;
 }
 
 .topic-tag--denied {
