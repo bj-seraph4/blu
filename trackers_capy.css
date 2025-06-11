@@ -164,7 +164,7 @@ body {
       display: flex;
       flex-direction: column;
       align-items: stretch;
-      background-color: #2e34408f;
+      background-color: #252a34;
       color: var(--post-aside-fg);
     }
 
@@ -753,7 +753,7 @@ progress {
   gap: 9px;
   font-size: 13px;
   color: #fff;
-  background-color: #3a4352;
+  background-color: #252a34;
   padding-left: 9px;
   border-bottom: 1px solid #333a48;
 }
