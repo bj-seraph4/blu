@@ -1714,6 +1714,7 @@ div.panel__body.torrent-search--poster__results {
   background: #2c323d;
   max-width: max-content;
   font-family: JetBrains Mono;
+  border: 2px solid #343a48;
 }
 
 .article-preview__title::before {
