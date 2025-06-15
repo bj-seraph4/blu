@@ -2704,16 +2704,12 @@ a[href="/users/System"] {
   border-radius: 10px;
 }
 
-.imgbb-button-text {
-  margin-left: 0.25em;
-}
-
 .imgbb-button {
   line-height: normal;
   color: #333;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 16px !important;
+  font-weight: 500 !important;
   text-shadow: none;
 }
 
