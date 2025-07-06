@@ -1350,7 +1350,7 @@ progress {
 .meta__title::before {
   content: "";
   display: inline-block;
-  vertical-align: -10px !important;
+  vertical-align: -11px !important;
   width: 42px;
   height: 41px;
   margin-right: -10px;
