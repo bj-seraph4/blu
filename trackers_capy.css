@@ -2568,9 +2568,11 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 @media screen and (max-width: 576px) {
   .meta__title::before {
-    vertical-align: 0px;
-    margin-right: -2px;
-    content: "~" !important;
+    margin-right: -4px;
+    content: "" !important;
+    display: inline-block;
+    vertical-align: -14.3px !important;
+    width: 26px;
   }
 }
 
