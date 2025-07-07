@@ -2789,6 +2789,24 @@ a[href="/users/System"] {
   font-weight: 500 !important;
   text-shadow: none;
 }
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background: #fcaf11;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px #00000026;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
 
 /*
 ░░░░░░░░░░░
