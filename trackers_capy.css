@@ -2795,8 +2795,8 @@ a[href="/users/System"] {
   right: 2rem;
   width: 3rem;
   height: 3rem;
-  border-radius: 50%;
-  background: #bc6f00;
+  border-radius: 10% !important;
+  background: #bc6f00 !important;
   color: #fff;
   border: none;
   cursor: pointer;
