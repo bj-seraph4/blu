@@ -675,7 +675,7 @@ th.similar-torrents__type {
   color: var(--forum-tag-implemented-fg);
   font-family: Roboto;
   font-weight: 400;
-  vertical-align: 2px;
+  vertical-align: 1px;
   margin: 0;
   max-height: 17px;
 }
