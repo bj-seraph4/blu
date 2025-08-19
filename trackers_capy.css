@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 07/07/2025  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 19/08/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -616,18 +616,18 @@ th.similar-torrents__type {
 }
 
 .user-stat-card {
-  background: var(--user-stat-card-bg);
-  border: var(--user-stat-card-border);
-  border-radius: var(--user-stat-card-border-radius);
-  box-shadow: var(--user-stat-card-box-shadow);
-  padding: 16px;
   display: grid;
-  gap: 4px 16px;
   grid-template-areas:
     "avatar username"
-    "avatar stat    ";
+    "avatar stat";
   grid-template-columns: auto 1fr;
-  box-shadow: rgb(19, 20, 29) 0px 5px 15px;
+  gap: 0.25rem 1rem;
+  align-items: center;
+  padding: 1rem;
+  border: var(--user-stat-card-border);
+  border-radius: var(--user-stat-card-border-radius);
+  background: var(--user-stat-card-bg);
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
 .bbcode-input__icon-bar-toggle {
@@ -2813,3 +2813,4 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
