@@ -2106,6 +2106,10 @@ td.torrent-search--grouped__age::before {
   font-family: Roboto;
 }
 
+.bbcode-rendered.bbcode-rendered pre:hover {
+  background-color: var(--bbcode-bg-hover, #2c313a);
+}
+
 .fas {
   font-weight: 500;
   letter-spacing: 1px;
@@ -2848,5 +2852,6 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
