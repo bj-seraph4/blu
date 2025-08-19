@@ -2091,19 +2091,19 @@ td.torrent-search--grouped__age::before {
 }
 
 .bbcode-rendered.bbcode-rendered pre {
-  background-color: #252a34;
-  color: var(--bbcode-rendered-fg-default);
-  border: revert;
-  border-radius: 6px;
-  font-size: 12px;
-  word-wrap: normal;
-  overflow: visible;
-  line-height: inherit;
+  background-color: var(--bbcode-bg, #252a34);
+  color: var(--bbcode-fg, #e5e7eb);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 0.5rem; 
+  font-size: 1.45rem; 
+  line-height: 1.4;
   word-break: break-word;
   overflow-wrap: anywhere;
   white-space: pre-wrap;
-  padding: 9px;
-  max-width: max-content;
+  padding: 0.6rem 0.75rem;
+  max-width: 100%;
+  transition: background 0.25s ease, color 0.25s ease;
+  font-family: Roboto;
 }
 
 .fas {
@@ -2848,4 +2848,5 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
