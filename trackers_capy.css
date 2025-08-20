@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 19/08/2025  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 20/08/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -1548,8 +1548,16 @@ progress {
 .top-nav__ratio-bar a {
   color: var(--top-nav-ratio-bar-fg);
   text-decoration: none;
-  margin-left: 3px !important;
-  margin-right: 3px !important;
+  margin: 0 6px !important; /* mantém espaçamento uniforme */
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: color 0.25s ease, background 0.25s ease;
+  font-weight: 500;
+}
+
+.top-nav__ratio-bar a:hover {
+  background: rgba(255, 255, 255, 0.1); 
+  color: #ffd369; 
 }
 
 .far.fa-sign-out {
@@ -2852,6 +2860,7 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
