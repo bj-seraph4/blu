@@ -2185,13 +2185,17 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 @media screen and (max-width: 767px) {
   .top-nav__ratio-bar.top-nav__ratio-bar.mobile {
     display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* ajusta colunas automaticamente */
+    gap: 4px; /* espaço entre os itens */
+    justify-items: center; /* centraliza os links horizontalmente */
+    margin: 0 auto; /* centraliza o grid no container */
   }
-}
 
-@media screen and (max-width: 767px) {
-  .top-nav__ratio-bar.top-nav__ratio-bar {
+  /* Ajusta os links para não quebrar */
+  .top-nav__ratio-bar.top-nav__ratio-bar.mobile a {
+    margin: 2px 0 !important;
+    padding: 4px 6px;
     font-size: 14px;
-    display: none !important;
   }
 }
 
@@ -2860,7 +2864,3 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
-
-
-
