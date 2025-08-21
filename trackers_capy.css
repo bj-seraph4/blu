@@ -1700,12 +1700,27 @@ progress {
 
 .user-stat-card__username {
   grid-area: username;
-  padding: 4px;
+  padding: 3px 3px;              
   margin: 0;
-  background: #2c323d69 !important;
-  font-family: Roboto;
-  border-radius: 10px;
+  background: rgba(44, 50, 61, 0.7) !important;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: #f0f0f0;                
+  border-radius: 8px;            
+  display: inline-flex;            
+  align-items: center;
+  justify-content: space-between;
+  text-overflow: ellipsis;        
+  overflow: hidden;
+  white-space: nowrap;
+  transition: background 0.2s, color 0.2s; 
 }
+
+.user-stat-card__username:hover {
+  background: rgba(44, 50, 61, 0.85);
+  color: #ffffff;
+}
+
 
 .fa-feed::before,
 .fa-rss::before {
