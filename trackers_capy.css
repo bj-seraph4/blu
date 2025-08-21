@@ -423,7 +423,7 @@ li.panel__tab[x-on\:click="tab = 'seeded'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; 
+  gap: 6px; /* espaço entre ícone e texto */
   margin: 2px;
 }
 
@@ -460,7 +460,7 @@ li.panel__tab[x-on\:click="tab = 'leeched'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 6px; /* espaço entre ícone e texto */
   margin: 2px;
 }
 
@@ -483,7 +483,7 @@ li.panel__tab[x-on\:click="tab = 'leeched'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "dead" */
 li.panel__tab[x-on\:click="tab = 'dead'"] {
-  color: #ff4d4d !important;   
+  color: #ff4d4d !important;     /* substitui o inline */
   background: #1e1e1e;
   border: 1px solid #212121;
   border-radius: 6px;
@@ -492,7 +492,7 @@ li.panel__tab[x-on\:click="tab = 'dead'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; 
+  gap: 6px; /* espaço entre ícone e texto */
   margin: 2px;
 }
 
@@ -509,6 +509,156 @@ li.panel__tab[x-on\:click="tab = 'dead'"].panel__tab--active {
   color: #fff !important;
   border-color: #ff1f1f;
   box-shadow: 0 0 8px #ff1f1f55;
+}
+
+/* Estilo exclusivo para o tab "movies" */
+li.panel__tab[x-on\:click="tab = 'movies'"] {
+  color: #c44dff !important;     
+  background: #1e1e1e;
+  border: 1px solid #c44dff55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+  margin:2px
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'movies'"]:hover {
+  background: #261a2a;
+  color: #ffffff !important;
+  border-color: #c44dff;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'movies'"].panel__tab--active {
+  background: #301f3a;
+  color: #fff !important;
+  border-color: #a31fff;
+  box-shadow: 0 0 8px #a31fff55;
+}
+
+/* Estilo exclusivo para o tab "series" */
+li.panel__tab[x-on\:click="tab = 'series'"] {
+  color: #ffd84d !important;     
+  background: #1e1e1e;
+  border: 1px solid #ffd84d55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+  margin:2px
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'series'"]:hover {
+  background: #2a281a;
+  color: #ffffff !important;
+  border-color: #ffd84d;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'series'"].panel__tab--active {
+  background: #3a361f;
+  color: #fff !important;
+  border-color: #ffcf1f;
+  box-shadow: 0 0 8px #ffcf1f55;
+}
+
+/* Estilo exclusivo para o tab "animes" */
+li.panel__tab[x-on\:click="tab = 'animes'"] {
+  color: #ff4db8 !important;     
+  background: #1e1e1e;
+  border: 1px solid #ff4db855;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+  margin: 2px;
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'animes'"]:hover {
+  background: #2a1a24;
+  color: #ffffff !important;
+  border-color: #ff4db8;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'animes'"].panel__tab--active {
+  background: #3a1f30;
+  color: #fff !important;
+  border-color: #ff1f9f;
+  box-shadow: 0 0 8px #ff1f9f55;
+}
+
+/* Estilo exclusivo para o tab "courses" */
+li.panel__tab[x-on\:click="tab = 'courses'"] {
+  color: #4dffe6 !important;     
+  background: #1e1e1e;
+  border: 1px solid #4dffe655;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+  margin:2px
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'courses'"]:hover {
+  background: #1a2a29;
+  color: #ffffff !important;
+  border-color: #4dffe6;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'courses'"].panel__tab--active {
+  background: #1f3a38;
+  color: #fff !important;
+  border-color: #1fffe0;
+  box-shadow: 0 0 8px #1fffe055;
+}
+
+/* Estilo exclusivo para o tab "games" */
+li.panel__tab[x-on\:click="tab = 'games'"] {
+  color: #ff6f4d !important;     
+  background: #1e1e1e;
+  border: 1px solid #ff6f4d55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+  margin:2px
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'games'"]:hover {
+  background: #2a1f1a;
+  color: #ffffff !important;
+  border-color: #ff6f4d;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'games'"].panel__tab--active {
+  background: #3a251f;
+  color: #fff !important;
+  border-color: #ff3f1f;
+  box-shadow: 0 0 8px #ff3f1f55;
 }
 
 
@@ -543,6 +693,37 @@ li.panel__tab[x-on\:click="tab = 'dead'"].panel__tab--active {
   border-right: 2px solid;
   border-radius: 10px;
 }
+
+/* Estilo exclusivo para o tab "newest" */
+li.panel__tab[x-on\:click="tab = 'newest'"] {
+  color: #4dc3ff !important;     
+  background: #1e1e1e !important;
+  border: 1px solid #4dc3ff55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+  margin: 2px;
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'newest'"]:hover {
+  background: #1a242a;
+  color: #ffffff !important;
+  border-color: #4dc3ff;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
+  background: #1f2f3a;
+  color: #fff !important;
+  border-color: #1f9fff;
+  box-shadow: 0 0 8px #1f9fff55;
+}
+
 
 .topic-listing__post-stats dt {
   font-weight: 400;
