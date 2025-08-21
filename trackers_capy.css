@@ -215,19 +215,37 @@ body {
 }
 
 .torrent__seeders-link.text-green {
-  background: #01b8011a;
-  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  background: rgba(1, 184, 1, 0.1); /* fundo suave */
+  padding: 4px 8px;
   border-radius: 10px;
   color: whitesmoke;
-  word-spacing: -3px;
+  font-weight: 500;
+  letter-spacing: 0.5px; /* mais natural que word-spacing negativo */
+  transition: background 0.2s, color 0.2s;
+}
+
+.torrent__seeders-link.text-green:hover {
+  background: rgba(1, 184, 1, 0.25);
+  color: #f0fff0;
 }
 
 .torrent__leechers-link.text-red {
-  background: #bf616a3b;
-  padding: 4px;
+  display: inline-flex;
+  align-items: center;
+  background: rgba(191, 97, 106, 0.23); /* fundo suave vermelho */
+  padding: 4px 8px;
   border-radius: 10px;
   color: white;
-  word-spacing: -3px;
+  font-weight: 500;
+  letter-spacing: 0.5px; /* mais natural que word-spacing negativo */
+  transition: background 0.2s, color 0.2s;
+}
+
+.torrent__leechers-link.text-red:hover {
+  background: rgba(191, 97, 106, 0.4);
+  color: #fff;
 }
 
 .text-red {
@@ -918,8 +936,6 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   from { opacity: 0; transform: translateY(6px); }
   to   { opacity: 0.6; transform: translateY(0); }
 }
-
-
 
 .user-stat-card {
   display: grid;
