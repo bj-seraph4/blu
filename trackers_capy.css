@@ -423,7 +423,7 @@ li.panel__tab[x-on\:click="tab = 'seeded'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px; 
   margin: 2px;
 }
 
@@ -453,14 +453,14 @@ li.panel__tab[x-on\:click="tab = 'seeded'"].panel__tab--active {
 li.panel__tab[x-on\:click="tab = 'leeched'"] {
   color: #ffaf4d !important;     
   background: #1e1e1e;
-  border: 2px solid #ffaf4d55;
+  border: 1px solid #ffaf4d55;
   border-radius: 6px;
   padding: 6px 12px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px;
   margin: 2px;
 }
 
@@ -483,7 +483,7 @@ li.panel__tab[x-on\:click="tab = 'leeched'"].panel__tab--active {
 
 /* Estilo exclusivo para o tab "dead" */
 li.panel__tab[x-on\:click="tab = 'dead'"] {
-  color: #ff4d4d !important;     /* substitui o inline */
+  color: #ff4d4d !important;   
   background: #1e1e1e;
   border: 1px solid #212121;
   border-radius: 6px;
@@ -492,7 +492,7 @@ li.panel__tab[x-on\:click="tab = 'dead'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px; 
   margin: 2px;
 }
 
