@@ -1031,15 +1031,26 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .form__textarea {
   background-color: inherit;
   border: var(--textarea-border);
-  border-radius: var(--textarea-border-radius);
-  color: var(--textarea-fg);
+  border-radius: var(--textarea-border-radius, 8px);
+  color: var(--textarea-fg, #eee);
   font-size: 14px;
   font-weight: 400;
   max-width: 100%;
-  outline: none;
-  padding: var(--textarea-padding);
   width: 100%;
-  font-family: JetBrains Mono;
+  outline: none;
+  padding: var(--textarea-padding, 8px);
+  font-family: 'JetBrains Mono', monospace;
+  resize: vertical;
+  min-height: 80px;
+  transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
+  background-clip: padding-box;
+}
+
+.form__textarea:hover,
+.form__textarea:focus {
+  border-color: #4dc3ff;
+  box-shadow: 0 0 6px #4dc3ff44;
+  background-color: rgba(30, 30, 30, 0.9);
 }
 
 .nav-tab-menu__items {
@@ -3170,3 +3181,4 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
