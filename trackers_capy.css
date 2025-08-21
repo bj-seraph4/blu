@@ -1303,24 +1303,21 @@ progress {
 }
 
 .footer__sub-footer {
-  border-top: 1px solid var(--footer-hr-fg);
   display: grid;
-  grid-template: "libraries stats" auto "libraries copyright" auto/auto auto;
+  grid-template-areas: 
+    "libraries stats"
+    "libraries copyright";
+  grid-template-columns: auto auto;
   width: 44vw;
   max-width: 100%;
-  padding: 4px;
+  padding: 6px 8px;
   margin-top: 20px;
-  border-bottom: 1px solid var(--footer-hr-fg);
-  border-right: 1px solid var(--footer-hr-fg);
-  border-left: 1px solid var(--footer-hr-fg);
+  border: thin solid #324041a1; /* unifica todas as bordas */
   border-radius: 5px;
-  background: #191d2a4a;
-  font-family: Roboto;
   background: radial-gradient(circle at top right, #23d1a508, #2328334f);
-  border-bottom: thin solid #324041a1;
-  border-right: thin solid #324041a1;
-  border-left: thin solid #324041a1;
-  border-top: thin solid #324041a1;
+  font-family: Roboto, sans-serif;
+  color: #c0c6c9; /* contraste leve para texto */
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* profundidade sutil */
 }
 
 .footer__copyright {
@@ -3188,5 +3185,6 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
