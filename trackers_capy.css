@@ -217,12 +217,12 @@ body {
 .torrent__seeders-link.text-green {
   display: inline-flex;
   align-items: center;
-  background: rgba(1, 184, 1, 0.1); /* fundo suave */
+  background: rgba(1, 184, 1, 0.1); 
   padding: 4px 8px;
   border-radius: 10px;
   color: whitesmoke;
   font-weight: 500;
-  letter-spacing: 0.5px; /* mais natural que word-spacing negativo */
+  letter-spacing: 0.5px; 
   transition: background 0.2s, color 0.2s;
 }
 
@@ -234,12 +234,12 @@ body {
 .torrent__leechers-link.text-red {
   display: inline-flex;
   align-items: center;
-  background: rgba(191, 97, 106, 0.23); /* fundo suave vermelho */
+  background: rgba(191, 97, 106, 0.23); 
   padding: 4px 8px;
   border-radius: 10px;
   color: white;
   font-weight: 500;
-  letter-spacing: 0.5px; /* mais natural que word-spacing negativo */
+  letter-spacing: 0.5px; 
   transition: background 0.2s, color 0.2s;
 }
 
@@ -441,7 +441,7 @@ li.panel__tab[x-on\:click="tab = 'seeded'"] {
   transition: all 0.2s ease-in-out;
   display: inline-flex;
   align-items: center;
-  gap: 6px; /* espaço entre ícone e texto */
+  gap: 6px; 
   margin: 2px;
 }
 
@@ -3185,6 +3185,7 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
