@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 20/08/2025  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 21/08/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -412,11 +412,102 @@ th.similar-torrents__type {
   border-top: 2px solid #3b4252;
 }
 
+/* Estilo exclusivo para o tab "seeded" */
+li.panel__tab[x-on\:click="tab = 'seeded'"] {
+  color: #4dff4d !important;     
+  background: #1e1e1e;
+  border: 1px solid #4dff4d55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'seeded'"]:hover {
+  background: #1a2a1a;
+  color: #ffffff !important;
+  border-color: #4dff4d;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'seeded'"].panel__tab--active {
+  background: #1f3a1f;
+  color: #fff !important;
+  border-color: #1fff1f;
+  box-shadow: 0 0 8px #1fff1f55;
+}
+
+
 .panel__tab {
   color: #81a1c1;
   font-family: Roboto;
   font-weight: 500;
 }
+
+/* Estilo exclusivo para o tab "leeched" */
+li.panel__tab[x-on\:click="tab = 'leeched'"] {
+  color: #ffaf4d !important;     
+  background: #1e1e1e;
+  border: 1px solid #ffaf4d55;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'leeched'"]:hover {
+  background: #2a211a;
+  color: #ffffff !important;
+  border-color: #ffaf4d;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'leeched'"].panel__tab--active {
+  background: #3a2a1f;
+  color: #fff !important;
+  border-color: #ff8f1f;
+  box-shadow: 0 0 8px #ff8f1f55;
+}
+
+
+
+/* Estilo exclusivo para o tab "dead" */
+li.panel__tab[x-on\:click="tab = 'dead'"] {
+  color: #ff4d4d !important;     /* substitui o inline */
+  background: #1e1e1e;
+  border: 1px solid #2c323d;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px; /* espaço entre ícone e texto */
+}
+
+/* Hover */
+li.panel__tab[x-on\:click="tab = 'dead'"]:hover {
+  background: #2a1a1a;
+  color: #ffffff !important;
+  border-color: #ff4d4d;
+}
+
+/* Estado ativo */
+li.panel__tab[x-on\:click="tab = 'dead'"].panel__tab--active {
+  background: #3a1f1f;
+  color: #fff !important;
+  border-color: #ff1f1f;
+  box-shadow: 0 0 8px #ff1f1f55;
+}
+
 
 .top-users__place {
   border-radius: 20%;
