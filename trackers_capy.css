@@ -2031,10 +2031,14 @@ i.fas.fa-minus-circle.fa-pull-right {
 }
 
 .mediainfo__audio {
-  background: #2c323d;
-  max-width: unset;
-  border: 2px solid #252a34;
-  margin: auto;
+  display: block;
+  background: linear-gradient(145deg, #2c323d, #252a34);
+  border: 2px solid #1e222b;
+  border-radius: 2px;
+  padding: 6px;
+  max-width: 100%;
+  margin: 1px auto;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 div.panel__body.torrent-search--poster__results {
@@ -3188,4 +3192,3 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
