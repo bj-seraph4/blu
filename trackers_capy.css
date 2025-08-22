@@ -270,17 +270,17 @@ body {
 }
 
 th.similar-torrents__type {
-  background-color: initial;
+  font-family: Roboto, sans-serif;
   font-size: 13px;
   font-weight: 400;
-  padding: 0px 1px;
+  color: #eceff4;
   min-height: 36px;
-  vertical-align: middle;
-  grid-area: type;
+  padding: 0 1px;
   white-space: nowrap;
-  background: #ffffff17;
-  font-family: Roboto;
-  background: radial-gradient(circle at top right, #3b4252, #3b4252, #3b4252);
+  background: #252a34;
+  border: 1px solid rgba(76, 86, 106, 0.35);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .post__datetime::before {
@@ -3302,4 +3302,5 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
