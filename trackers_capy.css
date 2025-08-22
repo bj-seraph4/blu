@@ -227,7 +227,7 @@ body {
   display: inline-flex;
   align-items: center;
   background: rgba(1, 184, 1, 0.1); 
-  padding: 4px 8px;
+  padding: 3px 6px;
   border-radius: 10px;
   color: whitesmoke;
   font-weight: 500;
@@ -244,7 +244,7 @@ body {
   display: inline-flex;
   align-items: center;
   background: rgba(191, 97, 106, 0.23); 
-  padding: 4px 8px;
+  padding: 3px 6px;
   border-radius: 10px;
   color: white;
   font-weight: 500;
@@ -3302,5 +3302,3 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
-
