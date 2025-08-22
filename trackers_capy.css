@@ -2083,11 +2083,18 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .mediainfo__subtitles {
-  background: #2e344096;
-  border: 2px solid #2c323d21;
-  margin-left: -1px;
-  padding: 0px 1px;
-  margin-top: 4px;
+  display: inline-block;
+  background: linear-gradient(135deg, #2e3440d9, #2c323dd9);
+  border: 1px solid #3a404d;
+  border-radius: 5px;
+  padding: 0px 9px;
+  margin: 5px 2px 0 0px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #d8dee9;
+  letter-spacing: 0.3px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .mediainfo h3 {
@@ -3192,3 +3199,4 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
