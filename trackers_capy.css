@@ -74,12 +74,21 @@ body {
   font-family: JetBrains Mono;
 }
 
-.torrent-search--list__name {
+.torrent.search--list__name {
   grid-area: name;
+  font-family: "JetBrains Mono", monospace;
   font-size: 16px;
+  font-weight: 500;
   color: var(--torrent-row-fg);
-  font-family: JetBrains Mono;
-  word-spacing: -4px;
+  word-spacing: normal;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  transition: color 0.2s ease;
+}
+
+.torrent.search--list__name:hover {
+  color: #88c0d0; /* destaque sutil ao passar o mouse */
 }
 
 .torrent__name {
@@ -3293,3 +3302,4 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
