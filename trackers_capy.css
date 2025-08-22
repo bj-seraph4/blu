@@ -1988,10 +1988,14 @@ progress {
 
 .torrent-icons {
   grid-area: icons;
-  letter-spacing: 5px;
+  display: flex;               
   align-items: center;
+  gap: 3px;                    
+  padding: 2px 1px;
   max-width: max-content;
-  border-radius: 3px;
+  border-radius: 6px;          
+  background: rgba(40, 40, 40, 0.4); 
+  transition: background 0.3s ease, transform 0.2s ease;
 }
 
 .torrent-icons__thanks::before,
@@ -3185,7 +3189,3 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
-
-
-
