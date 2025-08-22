@@ -2102,15 +2102,18 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .mediainfo h3 {
-  display: unset;
   font-family: inherit;
-  color: #bbb;
   font-size: 13px;
   font-weight: 700;
   text-transform: uppercase;
+  color: #bfc5d1;
+
+  margin: 8px 5px 6px;
+  padding-bottom: 3px;
   text-align: left;
-  margin: 3px 5px;
-  padding: 0;
+
+  border-bottom: 1px solid rgba(76, 86, 106, 0.35);
+  letter-spacing: 0.5px;
 }
 
 .torrent-icons__media-tags {
@@ -3275,3 +3278,4 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
