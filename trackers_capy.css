@@ -3273,7 +3273,7 @@ a[href="/users/System"] {
 }
 
 .mediainfo__general,.mediainfo__video {
-  flex-basis: 20%;
+  flex-basis: 48%;
   flex-shrink: 0;
   padding: 10px;
   background: rgba(46, 52, 64, 0.25);
@@ -3286,6 +3286,7 @@ a[href="/users/System"] {
   flex-direction: column;
   gap: 1px;
   margin-bottom: 6px;
+  max-width: max-content;
 }
 /*
 ░░░░░░░░░░░
