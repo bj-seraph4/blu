@@ -3302,6 +3302,17 @@ a[href="/users/System"] {
   background: #343a48 !important;
 }
 
+.panelV2.blocks__news::before {
+  content: "🔔";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 10px;
+  top: 29%;
+  opacity: 80.4%;
+  color: #88c0d0;
+  font-size: 15px;
+}
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
