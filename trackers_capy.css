@@ -3194,9 +3194,34 @@ a[href="/users/System"] {
   z-index: 1000;
 }
 
+.meta__description {
+  grid-area: description;
+  max-height: 150px;
+  overflow-y: auto;
+  color: var(--meta-description-fg);
+  margin-top: 4px;
+  padding: 6px 8px;
+  font-size: 14px;
+  line-height: 1.5;
+  background: rgba(46, 52, 64, 0.25);
+  border: 1px solid rgba(60, 66, 80, 0.4);
+  border-radius: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: #4c566a #2e3440;
+}
+.meta__description::-webkit-scrollbar {
+  width: 6px;
+}
+.meta__description::-webkit-scrollbar-thumb {
+  background: #4c566a;
+  border-radius: 3px;
+}
+.meta__description::-webkit-scrollbar-track {
+  background: #2e3440;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
