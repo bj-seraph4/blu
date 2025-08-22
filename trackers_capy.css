@@ -324,17 +324,21 @@ th.similar-torrents__type {
 .meta {
   display: grid;
   grid-template-areas:
-    "poster title       actions    "
-    "poster ids         ids        "
+    "poster title       actions"
+    "poster ids         ids"
     "poster description description"
-    "poster chips       chips      ";
+    "poster chips       chips";
   grid-template-columns: auto 1fr auto;
   grid-template-rows: auto auto auto minmax(0, 1fr);
-  gap: 16px 32px;
-  padding: 16px;
+  gap: 16px 24px;
+  padding: 20px;
   max-height: 510px;
-  background: #3b42525e;
-  border-radius: 10px;
+  background: rgba(59, 66, 82, 0.4);
+  border: 1px solid rgba(76, 86, 106, 0.35);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
 .torrent__activity-link {
@@ -3253,4 +3257,5 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
