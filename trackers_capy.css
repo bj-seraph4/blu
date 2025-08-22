@@ -3300,18 +3300,21 @@ a[href="/users/System"] {
 
 .panelV2.blocks__news {
   background: #343a48 !important;
+  position: relative;
+  padding-left: 30px; /* espaço para o ícone */
 }
 
 .panelV2.blocks__news::before {
-  content: "🔔";
-  font-family: "Font Awesome 5 Free";
+  content: "🔔 "; 
+  font-family: "Font Awesome 5 Free"; 
   font-weight: 900;
   position: absolute;
   left: 10px;
-  top: 29%;
-  opacity: 80.4%;
+  top: 51%;
+  transform: translateY(-50%);
   color: #88c0d0;
-  font-size: 15px;
+  font-size: 16px;
+  opacity: 50%
 }
 /*
 ░░░░░░░░░░░
