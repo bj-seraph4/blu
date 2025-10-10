@@ -49,9 +49,22 @@ html {
 }
 
 .block__title::before {
-  content: "🔘";
+  content: "🔔 ";
+  font-family: "Font Awesome 5 Free";
   font-weight: 900;
+  position: absolute;
+  left: 10px;
+  top: 51%;
+  transform: translateY(-50%);
   color: #88c0d0;
   font-size: 16px;
   opacity: 50%;
+}
+
+.message__text {
+  padding: 0.5em;
+  width: 100%;
+  background: #c7c5e3;
+  font-size: 16px;
+  color: #0c0b0c;
 }
