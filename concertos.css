@@ -138,3 +138,8 @@ html {
   display: inline-flex;
   text-align: -moz-left;
 }
+
+.f-display-topic-started {
+  background: #615f7d;
+  text-align: -moz-right;
+}
