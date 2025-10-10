@@ -63,3 +63,8 @@ html {
   color: #0c0b0c;
 }
 
+.post__message {
+  border: 1px solid black;
+  border-left: unset;
+  background: #e1e1e1;
+}
