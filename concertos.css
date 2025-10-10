@@ -73,3 +73,11 @@ html {
   min-height: 15rem;
   border: 1px solid black;
 }
+
+.decoda-quote-body {
+  border-left: 4px solid black;
+  margin-left: 0.5rem;
+  padding-left: 0.55rem;
+  background: #9d9797;
+  border-radius: 7px;
+}
