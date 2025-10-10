@@ -125,8 +125,16 @@ html {
 
 .block__content {
   border: 2px solid var(--nav-background-color);
+  padding: 0;
 }
 
 .table--bordered tbody > tr, .table--bordered-big tbody > tr {
   border-top: 2px solid #615f7d;
+}
+
+.pagination {
+  color: #615f7d;
+  align-content: center;
+  display: inline-flex;
+  text-align: -moz-left;
 }
