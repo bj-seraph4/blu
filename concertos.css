@@ -68,3 +68,8 @@ html {
   border-left: unset;
   background: #e1e1e1;
 }
+
+.post__info {
+  min-height: 15rem;
+  border: 1px solid black;
+}
