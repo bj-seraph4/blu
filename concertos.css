@@ -126,3 +126,7 @@ html {
 .block__content {
   border: 2px solid var(--nav-background-color);
 }
+
+.table--bordered tbody > tr, .table--bordered-big tbody > tr {
+  border-top: 2px solid #615f7d;
+}
