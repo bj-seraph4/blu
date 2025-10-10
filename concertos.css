@@ -92,3 +92,37 @@ html {
   flex-shrink: 0;
   background: #d4d4d4;
 }
+
+.f-display-topic-stats {
+  background: #272634;
+  color: sandybrown;
+  text-align: -webkit-center;
+}
+
+.f-display-topic-icon {
+  border-radius: 13px 0 0 10px;
+  display: flex;
+}
+
+.pbox.pbox--small-bottom.pbox--small-top {
+  background: #272634;
+  color: #29a9a9;
+  padding: 12px;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.f-display-topic-started::before{
+  content: " "; 
+}
+
+
+.f-display-topic-started::before {
+  content: "👤";
+  font-size: 10px !important;
+  vertical-align: 2px;
+}
+
+.block__content {
+  border: 2px solid var(--nav-background-color);
+}
