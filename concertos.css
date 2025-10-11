@@ -290,6 +290,20 @@ html {
   border-radius: 4px;
 }
 
+.torrents__title::before {
+  content: "~";
+  font-size: 20px;
+  vertical-align: -1px;
+  color: cornflowerblue;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.torrents__title:visited::before {
+  color: gray;
+}
+
+
 .user-info {
   display: flex;
   grid-column: nav-right / end;
@@ -372,3 +386,4 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
