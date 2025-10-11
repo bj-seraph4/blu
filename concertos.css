@@ -146,3 +146,12 @@ html {
   background: #615f7d;
   text-align: -moz-right;
 }
+
+.v-checkbox > span {
+  width: 10px;
+  height: 10px;
+  display: inline-flex;
+  border: 2px solid var(--nav-background-color);
+  border-radius: 1em;
+  margin: 1px;
+}
