@@ -181,13 +181,13 @@ html {
   text-align: left;
 }
 
-.v-checkbox>span {
+.v-checkbox > span {
   width: 10px;
   height: 10px;
   display: inline-flex;
-  border: 2px solid var(--nav-background-color);
   border-radius: 1em;
   margin: 1px;
+  vertical-align: sub;
 }
 
 .mbox.mbox--small-top {
@@ -278,5 +278,6 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
