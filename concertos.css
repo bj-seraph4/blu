@@ -193,6 +193,20 @@ html {
   font-size: 14px !important;
 }
 
+.text-bold.permalink{
+    background: #41404e;
+    padding: 0px 3px;
+    border-radius: 4px;
+}
+
+.text-bold.permalink::before {
+  content: "🔗";
+  font-size: 77%;
+  vertical-align: 1px;
+  margin-left: -2px;
+  border-radius: 3px;
+}
+
 .pagination {
   color: #615f7d;
   align-content: center;
@@ -344,3 +358,4 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
