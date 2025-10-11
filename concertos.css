@@ -235,3 +235,18 @@ html {
   content: "\f004";
   color: #d52a2a;
 }
+
+.fa-arrow-down::before {
+  content: "\f063";
+  color: #1cb117;
+}
+
+.mbox--mini-right {
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 2px;
+  background: #272634;
+  color: #d7cccc;
+  font-size: 15px;
+  font-weight: 500;
+}
