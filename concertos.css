@@ -231,3 +231,7 @@ html {
   margin: auto;
 }
 
+.fa-heart::before {
+  content: "\f004";
+  color: #d52a2a;
+}
