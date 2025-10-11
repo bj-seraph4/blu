@@ -261,6 +261,10 @@ html {
   color: #f94343;
 }
 
+.fa-music::before {
+  content: "🎵";
+}
+
 .fa-arrow-up::before {
   content: "\f062";
   color: steelblue;
