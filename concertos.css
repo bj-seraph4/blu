@@ -1,5 +1,5 @@
 /*
- * Theme by Seraph4
+ * Theme by Seraph4 - Concerts
  */
 
 html {
@@ -221,6 +221,13 @@ html {
   border-radius: 0 10px 10px 0px;
 }
 
+.torrent td:first-child {
+  width: 8rem;
+  padding-bottom: 1.1rem;
+  background: #272634db;
+  color: #d7d7d8;
+}
+
 .user-info {
   display: flex;
   grid-column: nav-right / end;
@@ -243,3 +250,4 @@ html {
   content: "\f063";
   color: #1cb117;
 }
+
