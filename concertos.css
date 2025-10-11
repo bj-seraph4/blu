@@ -184,3 +184,24 @@ html {
     width: auto !important;
   height: 126.2px !important;
 }
+
+.table--bordered tbody tr > td {
+  padding: 10px !important;
+  font-size: 15px !important;
+}
+
+.logo__symbol::after {
+  content: "- 𝙁𝙤𝙧 𝙩𝙝𝙚 𝙡𝙤𝙫𝙚 𝙤𝙛 𝙢𝙪𝙨𝙞𝙘";
+  color: #eff36a;
+  background: #3f3e4f;
+  padding: 0px 5px;
+  border-radius: 0 10px 10px 0px;
+}
+
+.logo__symbol {
+  margin-left: 0.25rem;
+  background: #000;
+  border-radius: 10px;
+  padding: 1px;
+  color: #f3f3f3;
+}
