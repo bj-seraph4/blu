@@ -162,3 +162,13 @@ html {
   padding: 0px 3px;
   border-radius: 5px;
 }
+
+.post__user-title {
+  word-break: break-all;
+  background: #2c323d;
+  max-width: max-content;
+  padding: 0px 1px;
+  border-radius: 2px;
+  border: 1px solid #262c36;
+  color: #6ca949;
+}
