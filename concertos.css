@@ -235,6 +235,13 @@ html {
   color: #d7d7d8;
 }
 
+.torrents__title {
+  font-weight: bold;
+  background: #67799b5e;
+  padding: 0px 0px;
+  border-radius: 4px;
+}
+
 .user-info {
   display: flex;
   grid-column: nav-right / end;
@@ -297,6 +304,7 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
