@@ -172,3 +172,9 @@ html {
   border: 1px solid #262c36;
   color: #6ca949;
 }
+
+.mbox--mini-right {
+  margin-top: 3px;
+  margin-right: 5px;
+  margin-left: 2px;
+}
