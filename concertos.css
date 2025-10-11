@@ -248,6 +248,12 @@ html {
   margin: auto;
 }
 
+.torrents__size {
+  background: #272634;
+  color: yellowgreen;
+  text-align: center;
+}
+
 .torrents__age{
     background: #2c2c36;
     font-size: 14px;
@@ -290,6 +296,7 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
