@@ -33,9 +33,11 @@ html {
   background-color: rgb(215, 204, 204);
   width: 90rem;
 }
+
 .block__title{
   font-family: JetBrains Mono
 }
+
 .btn {
   margin-top: 0.25rem;
   border: 3px solid var(--nav-background-color);
