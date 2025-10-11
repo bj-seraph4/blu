@@ -255,6 +255,14 @@ html {
   margin: auto;
 }
 
+.tags::before {
+  content: "🏷️";
+  font-size: 14px;
+  opacity: 50%;
+  display: inline-flex;
+  margin-top: 5px;
+}
+
 .torrents__size {
   background: #272634;
   color: yellowgreen;
@@ -304,6 +312,7 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
