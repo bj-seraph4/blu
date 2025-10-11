@@ -2,6 +2,17 @@
 background: #272634;
 }
 
+.nav {
+  display: flex;
+  background-color: var(--nav-background-color);
+  grid-column: start / end;
+  grid-row: nav-top / info-bar-top;
+  justify-content: center;
+  align-items: center;
+  color: var(--nav-color);
+  font-size: 17px;
+}
+
 html {
   background-color: rgb(39, 38, 52);
   font-family: Roboto, sans-serif;
@@ -219,3 +230,4 @@ html {
   border-radius: 9px;
   margin: auto;
 }
+
