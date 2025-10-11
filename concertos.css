@@ -205,3 +205,7 @@ html {
   padding: 1px;
   color: #f3f3f3;
 }
+.fa-heart::before {
+  content: "\f004";
+  color: #b11919;
+}
