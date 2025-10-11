@@ -179,9 +179,8 @@ html {
   margin-left: 2px;
 }
 
-.sceditor-container {
-  border: 4px solid #272634;
-  background-clip: text;
-  border-radius: 6px;
-  margin: auto;
+.sceditor-container.wysiwygMode.ltr
+{
+    width: auto !important;
+  height: 126.2px !important;
 }
