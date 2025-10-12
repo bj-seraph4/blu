@@ -34,6 +34,12 @@ html {
   width: 90rem;
 }
 
+.badge--user {
+  border: 1px solid #CCCCCC;
+  background-color: #05050585;
+  color: #f2eddc;
+}
+
 .block__title{
   font-family: JetBrains Mono
 }
@@ -421,6 +427,7 @@ div.sceditor-grip {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
