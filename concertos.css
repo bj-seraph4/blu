@@ -35,9 +35,10 @@ html {
 }
 
 .badge--user {
-  border: 1px solid #CCCCCC;
-  background-color: #05050585;
+  background-color: #181616d6;
   color: #f2eddc;
+  display: inline;
+  border: 0px solid aliceblue;
 }
 
 .block__title{
@@ -427,6 +428,7 @@ div.sceditor-grip {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
