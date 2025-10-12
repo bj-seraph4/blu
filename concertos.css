@@ -61,6 +61,13 @@ div.sceditor-grip {
   line-height: 0;
 }
 
+.message__time {
+  color: #050505;
+  background: whitesmoke;
+  padding: 1px 0px;
+  font-size: 12px;
+}
+
 .message__avatar {
   display: none;
 }
@@ -414,6 +421,7 @@ div.sceditor-grip {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
