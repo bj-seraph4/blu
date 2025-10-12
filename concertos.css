@@ -39,16 +39,14 @@ html {
 }
 
 .btn {
-  margin-top: 0.25rem;
   border: 3px solid var(--nav-background-color);
-  border-radius: 3.5rem;
+  border-radius: 5px;
   padding-left: 1rem;
   padding-right: 1rem;
   background: #6ca949;
   color: #0f0f0f;
-  font-size: 16px;
-  margin-bottom: 3px;
-  margin-left: 10px;
+  font-size: 12px;
+  margin: auto;
 }
 
 .message__avatar {
@@ -404,6 +402,7 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
