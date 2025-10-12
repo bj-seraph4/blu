@@ -49,6 +49,18 @@ html {
   margin: auto;
 }
 
+div.sceditor-grip {
+  overflow: auto;
+  width: 12px;
+  height: 11px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  z-index: 3;
+  line-height: 0;
+}
+
 .message__avatar {
   display: none;
 }
@@ -402,6 +414,7 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
