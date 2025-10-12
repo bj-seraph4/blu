@@ -130,6 +130,12 @@ div.sceditor-grip {
   color: #6ca949;
 }
 
+.message {
+  padding-top: 0.25rem;
+  display: flex;
+  flex-direction: row;
+}
+
 .pbox--small {
   padding: 0.1rem;
   background: #27263452;
@@ -433,6 +439,7 @@ div.sceditor-grip {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
