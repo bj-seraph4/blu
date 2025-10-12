@@ -229,6 +229,11 @@ html {
   font-family: JetBrains Mono;
 }
 
+.page-item.active {
+  color: #2d9db7;
+  text-decoration: underline;
+}
+
 .v-checkbox > span {
   width: 10px;
   height: 10px;
@@ -399,6 +404,7 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
