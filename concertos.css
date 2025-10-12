@@ -85,9 +85,9 @@ div.sceditor-grip {
   align-items: center;
   width: 12rem;
   padding-left: 0.5rem;
-  border-right: var(--main-border);
+  border-right: 5px solid #2c5a81;
   flex-shrink: 0;
-  background: #d4d4d4;
+  background: #d4d4d400;
 }
 
 .message__text {
@@ -433,6 +433,7 @@ div.sceditor-grip {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
