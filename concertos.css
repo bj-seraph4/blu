@@ -16,6 +16,12 @@ html {
   background: #272634;
 }
 
+.scrollable-y {
+  overflow-y: scroll;
+  max-height: 29rem;
+  border-radius: 10px;
+}
+
 .nav {
   display: flex;
   background-color: var(--nav-background-color);
@@ -440,6 +446,7 @@ div.sceditor-grip {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
