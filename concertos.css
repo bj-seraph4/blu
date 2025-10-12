@@ -217,10 +217,17 @@ html {
 }
 
 .pagination {
-  color: #615f7d;
+  color: #f2f1ff;
   align-content: center;
-  display: inline-flex;
-  text-align: left;
+  text-align: center;
+  font-size: 11px !important;
+  background: #404448;
+  max-width: max-content;
+  margin: auto;
+  padding: 0px 5px;
+  border-radius: 15px;
+  font-family: JetBrains Mono;
+  margin-bottom: 4px;
 }
 
 .v-checkbox > span {
@@ -393,6 +400,7 @@ html {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
