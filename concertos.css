@@ -385,7 +385,7 @@ div.sceditor-grip {
 
 .tags::before {
   content: "🏷️";
-  font-size: 14px;
+  font-size: 12px;
   opacity: 50%;
   display: inline-flex;
   margin-top: 5px;
@@ -452,6 +452,7 @@ div.sceditor-grip {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
