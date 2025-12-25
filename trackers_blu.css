@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕[Stylesheet] BLU Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 04/04/2025  
+❕[Stylesheet] BLU Nord Theme CSS : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 25/12/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -12,13 +12,13 @@
 .alert {
   color: #feb100;
   font-family: JetBrains Mono;
-  background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/blutopian_bg-2025.svg');
+  background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/trackers/blutopian_bg-2025.svg');
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
 }
 body {
-    background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/blutopian_bg-2025.svg');
+    background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/trackers/blutopian_bg-2025.svg');
     background-size: auto;
     background-size: 300px auto;
     font-size: 16px;
@@ -142,7 +142,7 @@ body {
       border-right: solid 1px rgb(19, 20, 29);
       border-top: solid 1px rgb(19, 20, 29);
       border-bottom: solid 1px rgb(19, 20, 30);
-      background: #191d2a url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/blutopian_bg-2025.svg');
+      background: #191d2a url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/trackers/blutopian_bg-2025.svg');
       background-size: auto;
       background-size: 130px;
       box-shadow: rgba(0, 0, 0, 0.64) 0px 5px 15px;
@@ -477,7 +477,7 @@ body {
 
 .topic-listing--unread .topic-listing__heading a::before {
   font-weight: 600;
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/star-of-life-solid(1).svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/star-of-life.svg");
 }
 
 .post__author-join, .post__author-topics, .post__author-posts {
@@ -697,7 +697,7 @@ progress {
 
 .torrent__category a::before {
   font-weight: 600;
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/hashtag-solid.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/hashtag-solid.svg");
 }
 
  .torrent__tags > li > time {
@@ -709,7 +709,7 @@ progress {
 }
 
 .torrent__tags > li > time::before {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/clock-time.tolltip.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-time.tolltip.svg');
   vertical-align: -1px;
   margin-left: 2px;
   margin-right: 2px;
@@ -747,7 +747,7 @@ progress {
 }
 
 .post__tip-button::after {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/paper-plane-regular.svg');
+  content: url('/paper-plane-regular.svg');
   vertical-align: -2px;
   margin-left: 2px;
   margin-right: 2px;
@@ -824,7 +824,7 @@ progress {
 }
 
 .post__tip-stats::before {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/capy-coins.svg');
+  content: url('/capy-coins.svg');
   margin-top: 1px;
   margin-left: 6px;
   margin-right: 3px;
@@ -931,7 +931,7 @@ progress {
 }
 
 .chatbox-message__time::before {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/time-post.svg');
+  content: url('/time-post.svg');
   vertical-align: -1px;
   margin-left: -10px;
   margin-right: 1px;
@@ -969,14 +969,14 @@ progress {
   font-family: Roboto;
 }
 .chatroom__whispers:before {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/keyboard-solid.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/keyboard-solid.svg');
   vertical-align: -2px;
   margin-left: 2px;
   margin-right: 2px;
 }
 
 .post__datetime::before {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/time-post.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg');
   vertical-align: -1px;
   margin-left: 2px;
   margin-right: 2px;
@@ -1028,14 +1028,14 @@ progress {
   row-gap: 6px;
 }
 .topic-tag--approved::after {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/aprovado-tag.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aprovado-tag.svg');
   vertical-align: -1px;
   margin-left: 3px;
   margin-right: 0px;
 }
 
 .topic-tag--denied::after {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/reprovado-tag.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reprovado-tag.svg');
   margin-left: 3px;
   margin-right: 0px;
   vertical-align: sub;
@@ -1048,7 +1048,7 @@ progress {
 }
 
 .topic-tag--implemented::after {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/implementaded.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/implementaded.svg');
   vertical-align: -2px;
   margin-left: 2px;
   margin-right: 0px;
@@ -1214,7 +1214,7 @@ progress {
 }
 
 .panel__tab--active::before {
-  content: url('https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/foquete-blu.svg');
+  content: url('https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/foquete-blu.svg');
   vertical-align: -1px;
   margin-left: 2px;
   margin-right: 2px;
@@ -1277,4 +1277,5 @@ progress {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
