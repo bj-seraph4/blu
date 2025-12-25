@@ -940,7 +940,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   right: 1.55rem;   
   width: 32px;      
   height: 32px;
-  background: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/capivara_corrigida.svg") no-repeat center / contain;
+  background: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io@latest/images/capivara_corrigida.svg") no-repeat center / contain;
   opacity: 0.6;
   pointer-events: none; 
   animation: fadeInCapy 0.3s forwards;
@@ -1697,7 +1697,7 @@ progress {
   width: 42px;
   height: 41px;
   margin-right: -10px;
-  background-image: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/capivara_corrigida.svg");
+  background-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io@latest/images/capivara_corrigida.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -3342,5 +3342,6 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
