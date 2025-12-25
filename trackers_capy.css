@@ -1,6 +1,6 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 24/11/2025  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 25/12/2025  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
@@ -284,7 +284,7 @@ th.similar-torrents__type {
 }
 
 .post__datetime::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/time-post.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg");
   vertical-align: -1px;
   margin-left: 2px;
   margin-right: 2px;
@@ -818,7 +818,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 
 .topic-listing--unread .topic-listing__heading a::before {
   font-weight: 600;
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/star-of-life-solid(1).svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/star-of-life.svg");
 }
 
 .post__author-join {
@@ -1137,7 +1137,7 @@ progress {
 
 .torrent__category a::before {
   font-weight: 600;
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/hashtag-solid.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/hashtag-solid.svg");
 }
 
 .torrent__tags > li > time {
@@ -1149,7 +1149,7 @@ progress {
 }
 
 .torrent__tags > li > time::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/clock-time.tolltip.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-time.tolltip.svg");
   vertical-align: -1px;
   margin-left: 2px;
   margin-right: 2px;
@@ -1185,7 +1185,7 @@ progress {
 }
 
 .post__tip-button::after {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/paper-plane-regular.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/paper-plane-regular.svg");
   vertical-align: -2px;
   margin-left: 2px;
   margin-right: 2px;
@@ -1266,7 +1266,7 @@ progress {
 }
 
 .post__tip-stats::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/capy-coins.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capy-coins.svg");
   margin-top: 1px;
   margin-left: 3px;
   margin-right: 2px;
@@ -1370,7 +1370,7 @@ progress {
 }
 
 .footer__section-list {
-  list-style: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/circulo-cbr-footer.svg");
+  list-style: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/circulo-cbr-footer.svg");
   font-size: 13px;
   font-family: Roboto;
   margin-left: 15px;
@@ -1388,7 +1388,7 @@ progress {
   color: #fff;
   font-family: Roboto;
   background: #434c5e
-    url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/fundo-busca-bj.svg")
+    url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/fundo-busca-bj.svg")
     no-repeat;
   background-position: 2%;
 }
@@ -1414,7 +1414,7 @@ progress {
 }
 
 .chatbox-message__time::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/time-post.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/time-post.svg");
   vertical-align: -1px;
   margin-left: -7px;
   margin-right: 1px;
@@ -1454,7 +1454,7 @@ progress {
 }
 
 .chatroom__whispers:before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/keyboard-solid.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/keyboard-solid.svg");
   vertical-align: -2px;
   margin-left: 2px;
   margin-right: 2px;
@@ -1553,14 +1553,14 @@ progress {
 }
 
 .topic-tag--approved::after {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/aprovado-tag.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aprovado-tag.svg");
   vertical-align: -1px;
   margin-left: 3px;
   margin-right: 0px;
 }
 
 .topic-tag--denied::after {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/reprovado-tag.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reprovado-tag.svg");
   vertical-align: -3px;
   margin-left: 3px;
   margin-right: 0px;
@@ -1573,7 +1573,7 @@ progress {
 }
 
 .topic-tag--implemented::after {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/implementaded.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/implementaded.svg");
   vertical-align: -2px;
   margin-left: 2px;
   margin-right: 0px;
@@ -1589,7 +1589,7 @@ progress {
 }
 
 .topic-listing__latest-post-link::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regular.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
   vertical-align: 0px;
   margin-right: 0px;
 }
@@ -1892,7 +1892,7 @@ progress {
 }
 
 .nav-tab--active__link::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/arrow-right-solid(1).svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/arrow-right-solid(1).svg");
   margin-right: 5px;
 }
 
@@ -1920,7 +1920,7 @@ progress {
 }
 
 .media__title::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/bars-solid.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg");
   vertical-align: -1px;
   width: 10px;
   display: inline-grid;
@@ -2018,7 +2018,7 @@ progress {
 }
 
 .torrent-search--list__age ::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regular.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
   vertical-align: top;
 }
 
@@ -2070,7 +2070,7 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .mediainfo__filename::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/bars-solid.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg");
   vertical-align: -1px;
   width: 10px;
   display: inline-grid;
@@ -2079,7 +2079,7 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .mediainfo__audio::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/images/audio-bj.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/audio-bj.svg");
   vertical-align: -1px;
   width: 10px;
   display: inline-grid;
@@ -2088,7 +2088,7 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .mediainfo__subtitles::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/legenda-cbr.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/legenda-cbr.svg");
   vertical-align: -1px;
   width: 15px;
   display: inline-grid;
@@ -2164,7 +2164,7 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .article-preview__title::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/trackers/noticias-cbr.svg") !important;
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/noticias-cbr.svg") !important;
   vertical-align: -1px;
   width: 16px;
   display: inline-grid;
@@ -2267,7 +2267,7 @@ td.torrent-search--grouped__size {
 }
 
 td.torrent-search--grouped__age::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regular.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
 }
 
 .subforum-listings__item:nth-child(2n) {
@@ -2379,7 +2379,7 @@ td.torrent-search--grouped__age::before {
 }
 
 .panel__action.page__published::before {
-  content: url("https://pub-cc79f915e3d84c13aa11e36fc28fa15f.r2.dev/bj/clock-regular.svg");
+  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
   margin-left: 0px;
   margin-right: 0px;
   vertical-align: unset;
@@ -3342,6 +3342,7 @@ a[href="/users/System"] {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
 
