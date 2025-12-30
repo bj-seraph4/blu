@@ -2348,10 +2348,14 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons{
   margin-left: 45px;
 }
 
+.user-stat-card__avatar {
+  grid-area: avatar;
+  border-radius: 10% !important;
+  max-width: 44px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
-
