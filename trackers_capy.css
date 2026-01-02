@@ -2272,8 +2272,9 @@ td.torrent-search--grouped__size {
   background: #2f353f;
 }
 
-td.torrent-search--grouped__age::before {
+td.torrent-search--grouped__age time::before {
   content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+  vertical-align: top;
 }
 
 .subforum-listings__item:nth-child(2n) {
@@ -3344,19 +3345,16 @@ a[href="/users/System"] {
   }
 }
 
+td.torrent-search--grouped__age time {
+  color: inherit;
+  background: #232832;
+  padding: 2px 3px;
+  border-radius: 3px;
+}
+
 /*
 ░░░░░░░░░░░
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
-
-
-
-
-
-
-
-
-
-
 
