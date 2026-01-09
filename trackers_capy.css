@@ -1015,6 +1015,76 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
+.bbcode-input__tab-label[for="content-bbcode-preview-disabled"] {
+    font-size: 0 !important; 
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.2s ease;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-disabled"]::before {
+    content: "\e472"; 
+    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #d6dce7;
+    visibility: visible;
+    display: inline-block;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-disabled"]:hover::before {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-enabled"] {
+    font-size: 0 !important; 
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-enabled"]::before {
+    content: "\f06e";
+    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #d6dce7;
+    visibility: visible;
+    display: inline-block;
+}
+
+.bbcode-input__tab-label[for="content-bbcode-preview-enabled"]:hover::before {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
+.form__button.form__button--text[x-on\:click="toggleButtonVisibility"] {
+    font-size: 0 !important;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__button.form__button--text[x-on\:click="toggleButtonVisibility"]::before {
+    content: "\f121";
+    font-family: "Font Awesome 5 Pro", "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 16px;
+    color: #d6dce7;
+    visibility: visible;
+}
+
+.form__button.form__button--text[x-on\:click="toggleButtonVisibility"]:hover::before {
+    color: #007bff;
+    transform: scale(1.1);
+}
+
 .bbcode-input__icon-bar-toggle {
   grid-area: toggle;
   border-top-right-radius: var(--bbcode-input-border-radius);
@@ -3507,4 +3577,5 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
