@@ -1643,6 +1643,13 @@ font-family: "Font Awesome 5 Pro";
   font-family: var(--font-roboto);
 }
 
+.topic-tag {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 4px;
+  font-size: 11px;
+}
+
 .topic-tag--approved::after {
   font-family: "Font Awesome 5 Pro";
   content: " \f164";
@@ -3500,3 +3507,4 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
