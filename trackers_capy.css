@@ -1,26 +1,64 @@
 /*
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
-❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 03/01/2026  
+❕CBR 𝘛𝘩𝘦𝘮𝘦 : 𝘓𝘢𝘴𝘵 𝘜𝘱𝘥𝘢𝘵𝘦: 09/01/2026  
 ▫️𝘔𝘰𝘥𝘪𝘧𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 : @𝙎𝙚𝙧𝙖𝙥𝙝4
 ░░░░░░░░░░░░░░░░░░░░░░░░░░░
 */
-
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,700;1,700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet');
 
+:root {
+    /* Fontes */
+    --font-main: 'Fira Sans', sans-serif;
+    --font-condensed: 'Roboto Condensed', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-roboto: 'Roboto', sans-serif;
+
+    /* Cores Nord */
+    --nord0: #2e3440;
+    --nord1: #3b4252;
+    --nord2: #434c5e;
+    --nord3: #4c566a;
+    --nord4: #d8dee9;
+    --nord5: #e5e9f0;
+    --nord6: #eceff4;
+    --nord7: #8fbcbb;
+    --nord8: #88c0d0;
+    --nord9: #81a1c1;
+    --nord10: #5e81ac;
+    --nord11: #bf616a;
+    --nord12: #d08770;
+    --nord13: #ebcb8b;
+    --nord14: #a3be8c;
+    --nord15: #b48ead;
+
+    /* Cores Customizadas CBR */
+    --bg-dark: #27292d;
+    --bg-panel: #222731;
+    --bg-aside: #252a34;
+    --accent-gold: #feb100;
+    --accent-teal: #166d6b;
+    --accent-green: #3fb618;
+    --accent-red: #ff0039;
+    --accent-orange: #ff7518;
+    
+    /* Assets */
+    --bg-image: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capibara.svg");
+}
+
 .alert {
-  color: #feb100;
-  font-family: JetBrains Mono;
-  background: #27292d
-    url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capibara.svg");
+  color: var(--accent-gold);
+  font-family: var(--font-mono);
+  background: var(--bg-dark)
+    var(--bg-image);
   background-size: 130px;
   font-size: 14px;
   padding: 0px;
 }
 
 body {
-  background-image: url(https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capibara.svg);
+  background-image: var(--bg-image);
 }
 
 .top-nav__main-menus {
@@ -31,7 +69,7 @@ body {
 
 .topic-listing--read .topic-listing__heading {
   font-weight: 400;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .topic-listing--read {
@@ -52,7 +90,7 @@ body {
   border-color: var(--post-toolbar-bg);
   color: var(--post-toolbar-fg);
   width: 72px;
-  background-color: #2e3440;
+  background-color: var(--nord0);
   text-align: right;
   border-radius: 8px;
 }
@@ -65,7 +103,7 @@ body {
   color: #ffffffa1;
   background: #212121;
   border-radius: 5px;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   line-height: 12px;
   padding: 2px 1px;
   margin-top: 1px;
@@ -77,12 +115,12 @@ body {
   color: var(--button-filled-fg);
   border: var(--button-filled-border);
   border-radius: var(--button-filled-border-radius);
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
 }
 
 .torrent.search--list__name {
   grid-area: name;
-  font-family: "JetBrains Mono", monospace;
+  font-family: var(--font-mono);
   font-size: 16px;
   font-weight: 500;
   color: var(--torrent-row-fg);
@@ -94,14 +132,14 @@ body {
 }
 
 .torrent.search--list__name:hover {
-  color: #88c0d0; /* destaque sutil ao passar o mouse */
+  color: #88c0d0; 
 }
 
 .torrent__name {
   color: #fff;
   background: radial-gradient(circle at top right, #3b4252, #166d6b9e, #3b4252);
   border-radius: 10px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   border: 2px solid #3b4252;
   font-size: 21px;
   font-weight: 500;
@@ -120,7 +158,7 @@ body {
   display: grid;
   align-items: center;
   position: relative;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   font-size: 17px;
 }
 
@@ -137,16 +175,16 @@ body {
   justify-content: center;
   padding: 0;
   margin: 0;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 400;
-  background: #3b4252;
+  background: var(--nord1);
   border-radius: 5px;
   border-left: solid 1px rgb(19, 20, 29);
   border-right: solid 1px rgb(19, 20, 29);
   border-top: solid 1px rgb(19, 20, 29);
   border-bottom: solid 1px rgb(19, 20, 30);
-  background: #27292d
-    url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capibara.svg");
+  background: var(--bg-dark)
+    var(--bg-image);
   background-size: auto;
   background-size: 130px;
 }
@@ -157,7 +195,7 @@ body {
   border: var(--button-outlined-border);
   border-radius: var(--button-outlined-border-radius);
   background: #272c36b5;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 400;
 }
 
@@ -214,19 +252,19 @@ body {
   border-radius: 5px;
   position: relative;
   cursor: pointer;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
 }
 
 .post__author-topics dt,
 .post__author-posts dt {
   font-weight: 500;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .text-green {
-  color: #3fb618;
+  color: var(--accent-green);
   font-size: 14px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .torrent__seeders-link.text-green {
@@ -264,19 +302,19 @@ body {
 }
 
 .text-red {
-  color: #ff0039;
+  color: var(--accent-red);
   font-size: 14px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .text-orange {
-  color: #ff7518;
+  color: var(--accent-orange);
   font-size: 14px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 th.similar-torrents__type {
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-roboto), sans-serif;
   font-size: 13px;
   font-weight: 400;
   color: #eceff4;
@@ -307,7 +345,7 @@ th.similar-torrents__type {
   padding: 10px;
   font-size: 11px;
   color: var(--torrent-card-head-fg);
-  background-color: #2e3440;
+  background-color: var(--nord0);
   margin: 0;
   overflow: hidden;
   white-space: nowrap;
@@ -337,7 +375,7 @@ th.similar-torrents__type {
 
 .similar-torrents__torrents {
   border-collapse: collapse;
-  background: #3b4252b2 !important;
+  background: var(--nord1)b2 !important;
 }
 
 .meta {
@@ -361,7 +399,7 @@ th.similar-torrents__type {
 }
 
 .torrent__activity-link {
-  background: #3b42525e;
+  background: var(--nord1)5e;
   border-radius: 10px;
 }
 
@@ -374,7 +412,7 @@ th.similar-torrents__type {
 
 .topic-listing__latest-post-link {
   font-size: 13px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   background: radial-gradient(
     circle at top right,
     #23d1a508,
@@ -387,13 +425,13 @@ th.similar-torrents__type {
 }
 .topic-listing {
   color: var(--panel-fg);
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   border: 1px solid #3b4252;
 }
 
 .breadcrumb--active {
   color: var(--breadcrumb-active-fg);
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .panel__actions {
@@ -435,7 +473,7 @@ th.similar-torrents__type {
   );
   font-weight: 400;
   font-size: 2.5rem;
-  font-family: JetBrains Mono, Arial, sans-serif;
+  font-family: var(--font-mono), Arial, sans-serif;
   text-transform: uppercase;
   -webkit-filter: brightness(110%);
   filter: brightness(110%);
@@ -486,7 +524,7 @@ li.panel__tab[x-on\:click="tab = 'seeded'"].panel__tab--active {
 
 .panel__tab {
   color: #81a1c1;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 500;
 }
 
@@ -715,7 +753,7 @@ li.panel__tab[x-on\:click="tab = 'games'"].panel__tab--active {
   font-size: 12px;
   text-align: center;
   display: inline-block;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
 }
 
 .nav-tabsV2 {
@@ -736,7 +774,6 @@ li.panel__tab[x-on\:click="tab = 'games'"].panel__tab--active {
   color: #88c0d0;
 }
 
-/* Estilo exclusivo para o tab "newest" */
 li.panel__tab[x-on\:click="tab = 'newest'"] {
   color: #4dc3ff !important;     
   background: #1e1e1e !important;
@@ -751,21 +788,18 @@ li.panel__tab[x-on\:click="tab = 'newest'"] {
   margin: 2px;
 }
 
-/* Hover */
 li.panel__tab[x-on\:click="tab = 'newest'"]:hover {
   background: #1a242a;
   color: #ffffff !important;
   border-color: #4dc3ff;
 }
 
-/* Estado ativo */
 li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   background: #1f2f3a;
   color: #fff !important;
   border-color: #1f9fff;
   box-shadow: 0 0 8px #1f9fff55;
 }
-
 
 .topic-listing__post-stats dt {
   font-weight: 400;
@@ -776,7 +810,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   grid-area: size;
   width: 8.5%;
   font-size: 14px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 400;
 }
 
@@ -803,8 +837,8 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   border: none;
   text-align: center;
   cursor: pointer;
-  font-family: Roboto;
-  background: #3b4252;
+  font-family: var(--font-roboto);
+  background: var(--nord1);
 }
 
 .bbcode-rendered.bbcode-rendered blockquote {
@@ -814,7 +848,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   color: #c0c7d3;
   border-left: 0.25em solid #212121;
   font-size: 15px;
-  background-color: #2e3440;
+  background-color: var(--nord0);
   border-radius: 6px;
   border-right: 0.25em solid #212121;
   border-top: 1px solid #272c36;
@@ -823,12 +857,17 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 
 .topic-listing--unread {
   font-weight: 600;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .topic-listing--unread .topic-listing__heading a::before {
+  font-family: "Font Awesome 5 Pro";
+  content: " \f192";
   font-weight: 600;
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/star-of-life.svg");
+  margin-left: 0px;
+  font-size: 10px;
+  color: #aed46f;
+  vertical-align: 1px;
 }
 
 .post__author-join {
@@ -836,7 +875,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   padding: 1px 2px;
 }
@@ -846,7 +885,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   padding: 1px 2px;
 }
@@ -856,7 +895,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   justify-content: space-between;
   font-size: 13px;
   margin-bottom: 0;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   background: radial-gradient(circle at top right, #2e3440, #434c5e) !important;
   border-radius: 0 0 5px 5px;
   padding: 1px 2px;
@@ -885,7 +924,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .profile__username {
   grid-area: username;
   font-size: 18px;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   border-radius: 5px;
   max-width: max-content;
   background: radial-gradient(
@@ -897,7 +936,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 
 .panel__action .form__button {
   background: #434c5e;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 500;
   color: #90e2ad;
 }
@@ -1019,7 +1058,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .topic-tag--implemented {
   background-color: rgba(162, 238, 239, 0.3);
   color: var(--forum-tag-implemented-fg);
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 400;
   vertical-align: 1px;
   margin: 0;
@@ -1029,7 +1068,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
 .topic-tag--denied {
   background-color: rgba(19, 20, 29, 0.34);
   color: #e10101;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 400;
   vertical-align: middle;
   max-height: 17px;
@@ -1040,7 +1079,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   left: 0;
   right: 0;
   border: 2px solid #88c0d096;
-  background: #3b4252;
+  background: var(--nord1);
   padding: revert;
 }
 
@@ -1049,7 +1088,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   color: #7dafbf;
   font-size: 14px;
   background-color: var(--dialog-head-bg);
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .form__textarea {
@@ -1063,7 +1102,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   width: 100%;
   outline: none;
   padding: var(--textarea-padding, 8px);
-  font-family: 'JetBrains Mono', monospace;
+  font-family: var(--font-mono);
   resize: vertical;
   min-height: 80px;
   transition: border-color 0.2s, box-shadow 0.2s, background-color 0.2s;
@@ -1085,7 +1124,7 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   flex-direction: column;
   align-items: stretch;
   padding: 8px 0;
-  background-color: #3b4252;
+  background-color: var(--nord1);
   border: var(--secondary-nav-tab-menu-border);
   border-radius: var(--secondary-nav-tab-menu-border-radius);
   box-shadow: var(--secondary-nav-tab-menu-box-shadow);
@@ -1106,13 +1145,13 @@ progress {
 
 .panelV2.achievements__unlocked {
   background: #5daa0017;
-  color: #feb100;
+  color: var(--accent-gold);
   border-radius: 10px;
 }
 
 .panelV2.achievements__pending {
   background: #fb00000f;
-  color: #feb100;
+  color: var(--accent-gold);
   border-radius: 10px;
 }
 
@@ -1126,7 +1165,7 @@ progress {
   font-weight: 500;
   border-radius: 10px 10px 0 0px;
   max-width: max-content;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .torrent__tags {
@@ -1146,8 +1185,13 @@ progress {
 }
 
 .torrent__category a::before {
+ font-family: "Font Awesome 5 Pro";
+  content: " \23";
   font-weight: 600;
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/hashtag-solid.svg");
+  margin-left: 0px;
+  font-size: 14px;
+  color: #4ebaf5;
+  vertical-align: middle;
 }
 
 .torrent__tags > li > time {
@@ -1155,14 +1199,18 @@ progress {
   padding: 6px 12px;
   display: inline-block;
   font-weight: 400;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .torrent__tags > li > time::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-time.tolltip.svg");
-  vertical-align: -1px;
-  margin-left: 2px;
-  margin-right: 2px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #d6dce7;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .post__header {
@@ -1186,7 +1234,7 @@ progress {
 
 .post__toolbar-item {
   list-style-type: none;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .post__tip-button:hover {
@@ -1241,7 +1289,7 @@ progress {
   font-weight: 900;
   color: #90e0ac;
   text-decoration: underline;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
 }
 
 .donation-package__description {
@@ -1250,9 +1298,9 @@ progress {
   margin-top: 20px;
   text-align: center;
   font-style: italic;
-  background: #3b4252;
+  background: var(--nord1);
   border-radius: 5px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .post__tip-stats dt {
@@ -1274,16 +1322,19 @@ progress {
   background: #343a488f;
   border-radius: 3px;
   color: #daa520;
-  font-family: Roboto !important;
+  font-family: var(--font-roboto) !important;
   font-weight: 500;
   padding: 0px 2px;
 }
 
 .post__tip-stats::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/capy-coins.svg");
-  margin-top: 1px;
+  content: "\f51e";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 600;
+  font-size: 13px;
+  color: #d8a32b;
   margin-left: 3px;
-  margin-right: 2px;
+  margin-right: 3px;
 }
 
 .comment__author-title {
@@ -1291,7 +1342,7 @@ progress {
   text-align: center;
   background: #ffffff17;
   border-radius: 5px;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   color: #90e2ad;
   line-height: 16px;
 }
@@ -1302,7 +1353,7 @@ progress {
   line-height: 1.5;
   text-align: center;
   font-size: 15px;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   background: #24272f;
   border: 1px solid #182026;
   border-radius: 18px 18px 0 0;
@@ -1313,7 +1364,7 @@ progress {
   border-style: none;
   max-width: 100%;
   box-sizing: content-box;
-  background-color: #3b425200;
+  background-color: var(--nord1)00;
 }
 
 .meta__ids {
@@ -1339,12 +1390,12 @@ progress {
   max-width: 100%;
   padding: 6px 8px;
   margin-top: 20px;
-  border: thin solid #324041a1; /* unifica todas as bordas */
+  border: thin solid #324041a1; 
   border-radius: 5px;
   background: radial-gradient(circle at top right, #23d1a508, #2328334f);
-  font-family: Roboto, sans-serif;
-  color: #c0c6c9; /* contraste leve para texto */
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2); /* profundidade sutil */
+  font-family: var(--font-roboto), sans-serif;
+  color: #c0c6c9; 
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2); 
 }
 
 .footer__copyright {
@@ -1359,14 +1410,14 @@ progress {
   font-size: 15px;
   margin: 0;
   font-weight: 400;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   color: #5a96ca;
 }
 
 .post__content.post__content.post__content {
   background-color: #434c5e;
   font-size: 16px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .bbcode-rendered.bbcode-rendered .bbcode-rendered__note::before {
@@ -1428,7 +1479,7 @@ progress {
 
 .chatbox-message__content {
   font-size: 16px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   border-radius: 0 10px 10px 10px;
   background: #474d59;
   max-width: max-content;
@@ -1482,7 +1533,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 12px;
   padding: 2px 4px !important;
   color: yellow;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   background: #2c323d;
   max-width: max-content;
   margin-left: 10px;
@@ -1490,10 +1541,14 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .chatroom__whispers:before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/keyboard-solid.svg");
-  vertical-align: -2px;
-  margin-left: 2px;
-  margin-right: 2px;
+ font-family: "Font Awesome 5 Pro";
+  content: " \f11c";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 11px;
+  color: #44affa;
+  margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .chatbox-message__header {
@@ -1515,7 +1570,7 @@ font-family: "Font Awesome 5 Pro";
   border-radius: 5px;
   color: white;
   font-size: 11px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   word-spacing: -1px;
 }
 
@@ -1523,7 +1578,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 13px;
   line-height: 1;
   font-weight: 400;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .user-tag__link {
@@ -1551,7 +1606,7 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__resolution {
   color: #87f79a;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   background: #2c323d;
   border-radius: 6px;
 }
@@ -1561,7 +1616,7 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .user-tag__link {
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   display: inline-flex;
   white-space: nowrap;
   align-items: center;
@@ -1583,22 +1638,28 @@ font-family: "Font Awesome 5 Pro";
   flex-direction: column;
   align-items: center;
   font-size: 12px;
-  background: #27292d;
+  background: var(--bg-dark);
   border-radius: 5px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .topic-tag--approved::after {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/aprovado-tag.svg");
-  vertical-align: -1px;
-  margin-left: 3px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f164";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #61e4be;
   margin-right: 0px;
 }
 
 .topic-tag--denied::after {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/reprovado-tag.svg");
-  vertical-align: -3px;
-  margin-left: 3px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f165";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #b70c0e;
   margin-right: 0px;
 }
 
@@ -1609,11 +1670,15 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .topic-tag--implemented::after {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/implementaded.svg");
-  vertical-align: -2px;
-  margin-left: 2px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f560";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #00e12a;
   margin-right: 0px;
 }
+
 
 .topic-posts {
   list-style-type: none;
@@ -1625,14 +1690,19 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .topic-listing__latest-post-link::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
-  vertical-align: 0px;
+ font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
   margin-right: 0px;
+  vertical-align: 1px;
 }
 
 .torrent-search--list__age {
   font-size: 16px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   border-bottom: 1px solid #3b4252 !important;
   border-right: 1px solid #3b4252 !important;
   color: #43a4fb !important;
@@ -1649,14 +1719,14 @@ font-family: "Font Awesome 5 Pro";
   font-size: 15px;
   border-top: 1px solid var(--torrent-group-header-bg);
   padding: 8px 6px 8px 16px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   font-weight: 400;
 }
 
 .torrent-search--list__format {
   grid-area: format;
   background: #2c323dbf !important;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .row-flags__wrapper {
@@ -1666,7 +1736,7 @@ font-family: "Font Awesome 5 Pro";
   width: auto;
   margin-top: 8px;
   background: #2c323d69 !important;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   border-radius: 3px;
 }
 
@@ -1700,7 +1770,7 @@ font-family: "Font Awesome 5 Pro";
 
 .torrent-search--list__overview {
   color: var(--torrent-row-fg);
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   border: thin #2c323d !important;
 }
 .fas.fa-coins {
@@ -1760,7 +1830,7 @@ font-family: "Font Awesome 5 Pro";
   padding: 3px 3px;              
   margin: 0;
   background: rgba(44, 50, 61, 0.7) !important;
-  font-family: Roboto, sans-serif;
+  font-family: var(--font-roboto), sans-serif;
   font-weight: 500;
   color: #f0f0f0;                
   border-radius: 8px;            
@@ -1889,7 +1959,7 @@ font-family: "Font Awesome 5 Pro";
   font-size: 12px;
   background: #2c323d;
   border-radius: 5px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .panel__header {
@@ -1899,13 +1969,13 @@ font-family: "Font Awesome 5 Pro";
 
 .key-value__group:first-child {
   padding-top: var(--key-value-padding);
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   color: #e1e1e1;
 }
 
 .key-value__group:last-child {
   padding-bottom: var(--key-value-padding);
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .top-nav__ratio-bar a {
@@ -1928,8 +1998,11 @@ font-family: "Font Awesome 5 Pro";
 }
 
 .nav-tab--active__link::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/arrow-right-solid(1).svg");
-  margin-right: 5px;
+  content: "►  ";
+  color: whitesmoke;
+  opacity: 70%;
+  font-size: 12px;
+  padding: 3px;
 }
 
 .special-event-alert > .alert__content {
@@ -1941,7 +2014,7 @@ font-family: "Font Awesome 5 Pro";
 .random__media a {
   color: #fff;
   font-weight: bold;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
 }
 
 .media__title {
@@ -1950,7 +2023,7 @@ font-family: "Font Awesome 5 Pro";
   font-weight: 800;
   background: #2e3440eb;
   padding: 5px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   max-width: max-content;
   border-radius: 0 10px 0 0;
 }
@@ -1975,8 +2048,8 @@ font-family: "Font Awesome 5 Pro";
   border-radius: 8px;
   padding: 2px 6px;
   text-align: center;
-  background-color: #3b4252 !important;
-  font-family: Roboto;
+  background-color: var(--nord1) !important;
+  font-family: var(--font-roboto);
 }
 
 .top-nav__profile-image {
@@ -2004,7 +2077,7 @@ font-family: "Font Awesome 5 Pro";
   background-color: #2c323d;
   border-radius: 10px 10px 10px 10px;
   border: 2px solid #262b35;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   padding: 3px;
 }
 
@@ -2020,7 +2093,7 @@ font-family: "Font Awesome 5 Pro";
 .torrent-search--list__size {
   background: #2d323d !important;
   font-size: 14px !important;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   color: #81a1c1;
 }
 
@@ -2031,13 +2104,13 @@ font-family: "Font Awesome 5 Pro";
 .torrent-search--list__completed {
   background: #2e34409e !important;
   font-size: 14px !important;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   color: #81a1c1;
 }
 
 .blocks__online {
   background: #2e3440ab;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
 }
 
 .torrent-icons {
@@ -2085,7 +2158,7 @@ i.fas.fa-minus-circle.fa-pull-right {
   padding-left: 6px;
   margin-left: 3px;
   margin-right: -39px;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
   color: #4af;
   font-weight: 500;
   background: #2c323d6e;
@@ -2117,30 +2190,37 @@ div.panel__body.torrent-search--poster__results {
 }
 
 .mediainfo__filename::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/bars-solid.svg");
-  vertical-align: -1px;
-  width: 10px;
-  display: inline-grid;
-  margin-left: 1px;
-  margin-right: -6px;
+  content: "\f0c9" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 0px;
+  text-indent: 0 !important;
+  width: auto !important;
 }
 
 .mediainfo__audio::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/audio-bj.svg");
-  vertical-align: -1px;
-  width: 10px;
-  display: inline-grid;
-  margin-left: 11px;
-  margin-right: -7px;
+  content: "\f028" !important;
+  font-family: "Font Awesome 5 Pro" !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: inherit;
+  display: inline-block !important;
+  margin-right: 0px;
+  text-indent: 0 !important;
+  width: auto !important;
 }
 
 .mediainfo__subtitles::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/legenda-cbr.svg");
-  vertical-align: -1px;
-  width: 15px;
-  display: inline-grid;
-  margin-left: 1px;
-  margin-right: 1px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f20a";
+  font-weight: 900;
+  font-size: 14px;
+  color: #f9f9f9;
+  margin-right: 2px;
+  margin-left: 7px;
 }
 
 .mediainfo__subtitles {
@@ -2206,17 +2286,19 @@ div.panel__body.torrent-search--poster__results {
   font-size: 18px;
   background: #2c323d;
   max-width: max-content;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   border: 2px solid #343a48;
 }
 
 .article-preview__title::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/noticias-cbr.svg") !important;
-  vertical-align: -1px;
-  width: 16px;
-  display: inline-grid;
-  margin-left: 1px;
-  margin-right: -10px;
+  font-family: "Font Awesome 5 Pro";
+  content: " \f675";
+  font-weight: 900;
+  margin-left: 4px;
+  font-size: 15px;
+  color: #f8ad1c;
+  margin-right: 3px;
+  vertical-align: 1px;
 }
 
 .torrent-search--list__name:visited {
@@ -2241,7 +2323,7 @@ div.panel__body.torrent-search--poster__results {
 
 .subforum-listing__post-stats dd {
   margin: 0;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   color: #2c93e6;
 }
 
@@ -2314,8 +2396,14 @@ td.torrent-search--grouped__size {
 }
 
 td.torrent-search--grouped__age time::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
-  vertical-align: top;
+ font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 900;
+  margin-left: 0px;
+  font-size: 9px;
+  color: #e9edf5;
+  margin-right: 2px;
+  vertical-align: 1px;
 }
 
 .subforum-listings__item:nth-child(2n) {
@@ -2341,7 +2429,7 @@ td.torrent-search--grouped__age time::before {
   padding: 0px 3px;
   border-radius: 5px;
   border: 2px solid #212121;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   font-size: 14px;
   color: #dddedf;
   display: inline-flex;
@@ -2383,7 +2471,7 @@ td.torrent-search--grouped__age time::before {
 
 .notification--unread {
   background: #2d313b !important;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   font-size: 14px !important;
 }
 
@@ -2426,11 +2514,15 @@ td.torrent-search--grouped__age time::before {
   border-radius: 10px;
 }
 
-.panel__action.page__published::before {
-  content: url("https://cdn.jsdelivr.net/gh/ser4ph4/ser4ph4.github.io/images/clock-regular.svg");
+ .panel__action.page__published::before {
+  font-family: "Font Awesome 5 Pro";
+  content: " \f017";
+  font-weight: 500;
   margin-left: 0px;
+  font-size: 9px;
+  color: #d6dce7;
   margin-right: 0px;
-  vertical-align: unset;
+  vertical-align: 1px;
 }
 
 .quick-search {
@@ -2446,8 +2538,8 @@ td.torrent-search--grouped__age time::before {
 
 .footer__section-title ~ p {
   color: #fff;
-  font-family: Roboto;
-  background: #3b425282;
+  font-family: var(--font-roboto);
+  background: var(--nord1)82;
   max-width: max-content;
   padding: 0px 1px;
   border-radius: 5px;
@@ -2459,7 +2551,7 @@ td.torrent-search--grouped__age time::before {
   background: #252a34;
   padding: 0px 3px;
   border: thin solid #434c5e;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: var(--font-condensed);
   margin-right: 1px;
   font-size: 9pt;
 }
@@ -2474,7 +2566,7 @@ td.torrent-search--grouped__age time::before {
 
 .topic-listing__view-stats dd {
   margin: 0;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   color: #2c93e6;
 }
 
@@ -2483,7 +2575,7 @@ td.torrent-search--grouped__age time::before {
   padding: 7px;
   border: 2px solid var(--bbcode-rendered-attention-subtle);
   background: #252a3463;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .user-tag img {
@@ -2504,7 +2596,7 @@ td.torrent-search--grouped__age time::before {
   padding: 0.6rem 0.75rem;
   max-width: 100%;
   transition: background 0.25s ease, color 0.25s ease;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .bbcode-rendered.bbcode-rendered pre:hover {
@@ -2571,20 +2663,18 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 @media screen and (max-width: 767px) {
   .top-nav__icon-bar {
-    /*! display: inline-flex !important; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .top-nav__ratio-bar.top-nav__ratio-bar.mobile {
     display: grid !important;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); /* ajusta colunas automaticamente */
-    gap: 4px; /* espaço entre os itens */
-    justify-items: center; /* centraliza os links horizontalmente */
-    margin: 0 auto; /* centraliza o grid no container */
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr)); 
+    gap: 4px; 
+    justify-items: center;
+    margin: 0 auto; 
   }
-
-  /* Ajusta os links para não quebrar */
+  
   .top-nav__ratio-bar.top-nav__ratio-bar.mobile a {
     margin: 2px 0 !important;
     padding: 4px 6px;
@@ -2719,9 +2809,9 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
   .topic-listing__view-stats {
     margin: -4px !important;
     font-size: 12px !important;
-    background: #27292d;
+    background: var(--bg-dark);
     border-radius: 5px;
-    font-family: Roboto;
+    font-family: var(--font-roboto);
     display: none !important;
   }
 }
@@ -2815,7 +2905,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
       #3b4252
     );
     border-radius: 10px;
-    font-family: Roboto;
+    font-family: var(--font-roboto);
     border: 2px solid #3b4252;
     font-size: 13px;
     font-weight: 500;
@@ -2884,7 +2974,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
     min-height: 36px;
     grid-area: type;
     white-space: nowrap;
-    font-family: Roboto;
+    font-family: var(--font-roboto);
     background: #212121;
     border-radius: 10px;
   }
@@ -2985,7 +3075,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 .torrent-search--list__type {
   font-size: 13px;
-  font-family: Roboto !important;
+  font-family: var(--font-roboto) !important;
   white-space: wrap !important;
 }
 
@@ -3032,7 +3122,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
     padding: 0px;
     font-size: 14px;
     color: white;
-    font-family: Roboto !important;
+    font-family: var(--font-roboto) !important;
   }
 }
 
@@ -3148,7 +3238,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 .torrent__tags li {
   white-space: nowrap;
-  font-family: Roboto;
+  font-family: var(--font-roboto);
 }
 
 .chatbox-message__menu-button {
@@ -3220,7 +3310,7 @@ i.fas.fa-arrow-circle-up.text-success.torrent-icons {
 
 a[href="/users/System"] {
   color: rgb(255, 120, 0) !important;
-  font-family: JetBrains Mono;
+  font-family: var(--font-mono);
   background: #2e3440;
   padding: 2px 1px;
   border-radius: 5px;
@@ -3240,6 +3330,7 @@ a[href="/users/System"] {
   font-weight: 500 !important;
   text-shadow: none;
 }
+
 .scroll-to-top-btn {
   position: fixed;
   bottom: 2rem;
@@ -3275,13 +3366,16 @@ a[href="/users/System"] {
   scrollbar-color: #4c566a #2e3440;
   font-family: 'Roboto', sans-serif;
 }
+
 .meta__description::-webkit-scrollbar {
   width: 6px;
 }
+
 .meta__description::-webkit-scrollbar-thumb {
   background: #4c566a;
   border-radius: 3px;
 }
+
 .meta__description::-webkit-scrollbar-track {
   background: #2e3440;
 }
@@ -3293,16 +3387,13 @@ a[href="/users/System"] {
   padding: 10px 12px;
   padding-top: 16px;
   overflow-y: auto;
-
   background: rgba(46, 52, 64, 0.25);
   border: 1px solid rgba(60, 66, 80, 0.4);
   border-radius: 8px;
-
   scrollbar-width: thin;
   scrollbar-color: #4c566a #2e3440;
 }
 
-/* Scrollbar estilizada (webkit) */
 .meta__chip-container::-webkit-scrollbar {
   width: 6px;
 }
@@ -3320,13 +3411,10 @@ a[href="/users/System"] {
   font-size: 16px;
   line-height: 1.4;
   padding-bottom: 16px;
-
   color: #eceff4;
   text-shadow: 0 1px 2px rgba(0,0,0,0.4);
-
   overflow-wrap: break-word;
   word-break: break-word;
-
   border-bottom: 1px solid rgba(76, 86, 106, 0.3);
   margin-bottom: 8px;
 }
@@ -3351,7 +3439,7 @@ a[href="/users/System"] {
 .panelV2.blocks__news {
   background: #343a48 !important;
   position: relative;
-  padding-left: 30px; /* espaço para o ícone */
+  padding-left: 30px;
 }
 
 .panelV2.blocks__news::before {
