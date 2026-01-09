@@ -1144,6 +1144,26 @@ li.panel__tab[x-on\:click="tab = 'newest'"].panel__tab--active {
   max-height: 17px;
 }
 
+.topic-tag--solved::after {
+  font-family: "Font Awesome 5 Pro";
+  content: " \f336";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #108b88;
+  margin-right: 0px;
+}
+
+.topic-tag--bug::after {
+  font-family: "Font Awesome 5 Pro";
+  content: " \f188";
+  font-weight: 800;
+  margin-left: 0px;
+  font-size: 10px;
+  color: #dc929c;
+  margin-right: 0px;
+}
+
 .dialog--auto-width {
   width: max-content;
   left: 0;
@@ -3577,5 +3597,6 @@ li.panel__tab[x-on\:click*="tab = 'open'"].panel__tab--active {
 "𝘉𝘰𝘯𝘪𝘴 𝘯𝘰𝘤𝘦𝘵, 𝘲𝘶𝘪 𝘮𝘢𝘭𝘪𝘴 𝘱𝘢𝘳𝘤𝘪𝘵."
 ░░░░░░░░░░░
 */
+
 
 
